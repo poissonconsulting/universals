@@ -10,10 +10,6 @@ Description: Provides common model-fitting S3 generic methods
     and conflicts.
 License: MIT + file LICENSE
 Depends: R (>= 3.3)
-Suggests: 
-    covr,
-    testthat (>= 2.1.0),
-    knitr
 URL: https://github.com/poissonconsulting/pkgtemplate
 BugReports: https://github.com/poissonconsulting/pkgtemplate/issues
 Encoding: UTF-8
