@@ -1,40 +1,39 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# pkgtemplate <img src="man/figures/logo.png" align="right" />
+# universals
 
 <!-- badges: start -->
 
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![Travis build
-status](https://travis-ci.com/poissonconsulting/pkgtemplate.svg?branch=master)](https://travis-ci.com/poissonconsulting/pkgtemplate)
+status](https://travis-ci.com/poissonconsulting/universals.svg?branch=master)](https://travis-ci.com/poissonconsulting/universals)
 [![AppVeyor build
-status](https://ci.appveyor.com/api/projects/status/github/poissonconsulting/pkgtemplate?branch=master&svg=true)](https://ci.appveyor.com/project/poissonconsulting/pkgtemplate)
+status](https://ci.appveyor.com/api/projects/status/github/poissonconsulting/universals?branch=master&svg=true)](https://ci.appveyor.com/project/poissonconsulting/universals)
 [![Codecov test
-coverage](https://codecov.io/gh/poissonconsulting/pkgtemplate/branch/master/graph/badge.svg)](https://codecov.io/gh/poissonconsulting/pkgtemplate?branch=master)
+coverage](https://codecov.io/gh/poissonconsulting/universals/branch/master/graph/badge.svg)](https://codecov.io/gh/poissonconsulting/universals?branch=master)
 [![License:
 MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-<!-- [![Tinyverse status](https://tinyverse.netlify.com/badge/pkgtemplate)](https://CRAN.R-project.org/package=pkgtemplate) -->
-<!-- [![CRAN status](https://www.r-pkg.org/badges/version/pkgtemplate)](https://cran.r-project.org/package=pkgtemplate) -->
-<!-- ![CRAN downloads](https://cranlogs.r-pkg.org/badges/pkgtemplate) -->
+<!-- [![Tinyverse status](https://tinyverse.netlify.com/badge/universals)](https://CRAN.R-project.org/package=universals) -->
+<!-- [![CRAN status](https://www.r-pkg.org/badges/version/universals)](https://cran.r-project.org/package=universals) -->
+<!-- ![CRAN downloads](https://cranlogs.r-pkg.org/badges/universals) -->
 <!-- badges: end -->
 
-pkgtemplate provides a template for a new R package.
-
-It includes useful internal
-functions.
+`universals` provides common model-fitting S3 generic methods missing
+from base R and the [`generics`](https://github.com/r-lib/generics)
+package to reduce package dependencies and conflicts.
 
 ## Installation
 
 <!-- To install the latest release from [CRAN](https://cran.r-project.org) -->
 
 To install the developmental version from
-[GitHub](https://github.com/poissonconsulting/pkgtemplate)
+[GitHub](https://github.com/poissonconsulting/universals)
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("poissonconsulting/pkgtemplate")
+remotes::install_github("poissonconsulting/universals")
 ```
 
 To install the latest developmental release from the Poisson drat
@@ -43,36 +42,41 @@ To install the latest developmental release from the Poisson drat
 ``` r
 # install.packages("drat")
 drat::addRepo("poissonconsulting")
-install.packages("pkgtemplate")
+install.packages("universals")
 ```
 
-## Demonstration
+## Usage
 
-In order to create a new package the user should go to the pkgtemplate
-[GitHub repository](https://github.com/poissonconsulting/pkgtemplate)
-and choose ‘Use this template’.
+`universals` is designed to be used by package developers.
 
-pkgtemplate includes files used for development of Shiny applications.
-To remove these from the repository, run:
+As with [`generics`](https://github.com/r-lib/generics) it is
+recommended to import and re-export the generics of interest. For
+example, to provide a method for the S3 `pars()` method, use the
+following `roxygen2` code:
 
 ``` r
-pkgtemplate:::cannibalise_shiny(getwd())
+#' @importFrom universals pars
+#' @export
+universals::pars
 ```
 
-## Information
+## Inspiration
 
-For more information see the [Get
-Started](https://poissonconsulting.github.io/pkgtemplate/articles/pkgtemplate.html)
-vignette.
+The `universals` package is heavily inspired by the
+[`generics`](https://github.com/r-lib/generics) package.
+
+It’s possible that some of the methods migrate to the
+[`generics`](https://github.com/r-lib/generics) package in a future
+release.
 
 ## Contribution
 
 Please report any
-[issues](https://github.com/poissonconsulting/pkgtemplate/issues).
+[issues](https://github.com/poissonconsulting/universals/issues).
 
-[Pull requests](https://github.com/poissonconsulting/pkgtemplate/pulls)
+[Pull requests](https://github.com/poissonconsulting/universals/pulls)
 are always welcome.
 
 Please note that this project is released with a [Contributor Code of
-Conduct](https://github.com/poissonconsulting/pkgtemplate/blob/master/CODE_OF_CONDUCT.md).
+Conduct](https://github.com/poissonconsulting/universals/blob/master/CODE_OF_CONDUCT.md).
 By contributing, you agree to abide by its terms.
