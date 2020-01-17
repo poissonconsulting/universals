@@ -9,7 +9,7 @@ jobs:
     - Rscript -e 'covr::codecov()'
   - r: oldrel
   - r: 3.4
-  - r: 3. 
+  - r: 3.3
 
 notifications:
   email: false
