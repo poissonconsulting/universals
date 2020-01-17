@@ -65,9 +65,8 @@ universals::pars
 The `universals` package is heavily inspired by the
 [`generics`](https://github.com/r-lib/generics) package.
 
-It’s possible that some of the methods migrate to the
-[`generics`](https://github.com/r-lib/generics) package in a future
-release.
+It’s possible that some of the methods migrate to that package in a
+future release.
 
 ## Contribution
 
