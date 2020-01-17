@@ -9,9 +9,7 @@ Description: Provides common model-fitting S3 generic methods
     missing from base R and the generics package to reduce package dependencies
     and conflicts.
 License: MIT + file LICENSE
-Imports:
-    stats,
-    chk
+Depends: R (>= 3.3)
 Suggests: 
     covr,
     testthat (>= 2.1.0),
