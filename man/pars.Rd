@@ -11,11 +11,14 @@ pars(x, ...)
 
 \item{...}{Other arguments passed to methods.}
 }
+\value{
+A character vector of the parameter names.
+}
 \description{
 Gets character vector of parameter names.
 }
 \section{Methods}{
 
-To see all available methods type \verb{[methods]("pars")}.
+To see all available methods use \code{\link[utils:methods]{utils::methods()}}.
 }
 
