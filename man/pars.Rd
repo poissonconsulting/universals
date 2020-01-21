@@ -17,8 +17,3 @@ A character vector of the parameter names.
 \description{
 Gets character vector of parameter names.
 }
-\section{Methods}{
-
-To see all available methods use \code{\link[utils:methods]{utils::methods()}}.
-}
-
