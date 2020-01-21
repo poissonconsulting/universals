@@ -16,13 +16,9 @@ An integer vector of the dimensions.
 }
 \description{
 Gets the dimensions of an object.
-Unlike \code{base::dim()}, dims works as intuitively expected for vectors and data.frames.
+Unlike \code{base::dim()}, dims works as intuitively expected
+for vectors and data.frames.
 }
-\section{Methods}{
-
-To see all available methods use \code{\link[utils:methods]{utils::methods()}}.
-}
-
 \seealso{
 \code{\link[base:dim]{base::dim()}}
 }
