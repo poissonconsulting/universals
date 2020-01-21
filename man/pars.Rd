@@ -7,7 +7,7 @@
 pars(x, ...)
 }
 \arguments{
-\item{x}{An object. See the individual methods for specifics.}
+\item{x}{An object.}
 
 \item{...}{Other arguments passed to methods.}
 }
