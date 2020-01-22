@@ -20,6 +20,7 @@ Gets the parameter dimensions of an object.
 \seealso{
 Other {dimensions}: 
 \code{\link{dims}()},
-\code{\link{ndims}()}
+\code{\link{ndims}()},
+\code{\link{npdims}()}
 }
 \concept{{dimensions}}

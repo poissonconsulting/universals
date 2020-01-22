@@ -15,11 +15,12 @@ ndims(x, ...)
 A integer scalar of the number of dimensions.
 }
 \description{
-Gets the number of dimensions of an object as defined by \code{\link[=dims]{dims()}}.
+Gets the number of dimensions of an object.
 }
 \seealso{
 Other {dimensions}: 
 \code{\link{dims}()},
+\code{\link{npdims}()},
 \code{\link{pdims}()}
 }
 \concept{{dimensions}}
