@@ -17,3 +17,9 @@ A character vector of the parameter names.
 \description{
 Gets character vector of parameter names.
 }
+\seealso{
+Other {parameters}: 
+\code{\link{npars}()},
+\code{\link{set_pars}()}
+}
+\concept{{parameters}}

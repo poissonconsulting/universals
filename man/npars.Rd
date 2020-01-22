@@ -26,5 +26,10 @@ Other {MCMC dimensions}:
 \code{\link{nsams}()},
 \code{\link{nsims}()},
 \code{\link{nterms}()}
+
+Other {parameters}: 
+\code{\link{pars}()},
+\code{\link{set_pars}()}
 }
 \concept{{MCMC dimensions}}
+\concept{{parameters}}
