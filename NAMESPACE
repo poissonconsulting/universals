@@ -2,4 +2,5 @@
 
 export(dims)
 export(ndims)
+export(npars)
 export(pars)
