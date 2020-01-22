@@ -21,6 +21,7 @@ of a Monte Carlo Markov Chain (MCMC) object.
 \seealso{
 Other {MCMC dimensions}: 
 \code{\link{nchains}()},
+\code{\link{niters}()},
 \code{\link{npars}()}
 }
 \concept{{MCMC dimensions}}

@@ -3,6 +3,7 @@
 export(dims)
 export(nchains)
 export(ndims)
+export(niters)
 export(npars)
 export(nsims)
 export(pars)

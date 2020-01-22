@@ -22,6 +22,7 @@ Gets the number of parameters of an object as returned by \code{\link[=pars]{par
 
 Other {MCMC dimensions}: 
 \code{\link{nchains}()},
+\code{\link{niters}()},
 \code{\link{nsims}()}
 }
 \concept{{MCMC dimensions}}
