@@ -25,6 +25,7 @@ for vectors and data.frames.
 Other {dimensions}: 
 \code{\link{ndims}()},
 \code{\link{npdims}()},
-\code{\link{pdims}()}
+\code{\link{pdims}()},
+\code{\link{tindex}()}
 }
 \concept{{dimensions}}
