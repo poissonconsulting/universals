@@ -5,6 +5,6 @@
 #' 
 #' @inheritParams params
 #' @return An integer scalar of the number of sample values.
-#' @export
 #' @family {MCMC dimensions}
+#' @export
 nsams <- function(x, ...) UseMethod("nsams")

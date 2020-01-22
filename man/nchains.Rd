@@ -23,6 +23,7 @@ Other {MCMC dimensions}:
 \code{\link{niters}()},
 \code{\link{npars}()},
 \code{\link{nsams}()},
-\code{\link{nsims}()}
+\code{\link{nsims}()},
+\code{\link{nterms}()}
 }
 \concept{{MCMC dimensions}}
