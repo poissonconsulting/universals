@@ -7,6 +7,7 @@
 #' @inheritParams params
 #' @return An integer vector of the dimensions.
 #' @seealso [base::dim()]
+#' @family {dimensions}
 #' @export
 dims <- function(x, ...) {
   UseMethod("dims")

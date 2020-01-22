@@ -21,4 +21,9 @@ for vectors and data.frames.
 }
 \seealso{
 \code{\link[base:dim]{base::dim()}}
+
+Other {dimensions}: 
+\code{\link{ndims}()},
+\code{\link{pdims}()}
 }
+\concept{{dimensions}}

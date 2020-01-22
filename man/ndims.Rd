@@ -18,5 +18,8 @@ A integer scalar of the number of dimensions.
 Gets the number of dimensions of an object as defined by \code{\link[=dims]{dims()}}.
 }
 \seealso{
-\code{\link[=dims]{dims()}}
+Other {dimensions}: 
+\code{\link{dims}()},
+\code{\link{pdims}()}
 }
+\concept{{dimensions}}

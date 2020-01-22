@@ -4,7 +4,7 @@
 #'
 #' @inheritParams params
 #' @return A integer scalar of the number of dimensions.
-#' @seealso [dims()]
+#' @family {dimensions}
 #' @export
 ndims <- function(x, ...) {
   UseMethod("ndims")
