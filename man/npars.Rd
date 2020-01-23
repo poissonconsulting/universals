@@ -25,7 +25,8 @@ Other {MCMC dimensions}:
 \code{\link{niters}()},
 \code{\link{nsams}()},
 \code{\link{nsims}()},
-\code{\link{nterms}()}
+\code{\link{nterms}()},
+\code{\link{split_chains}()}
 
 Other {parameters}: 
 \code{\link{pars_terms}()},

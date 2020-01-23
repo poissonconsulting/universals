@@ -24,6 +24,7 @@ Other {MCMC dimensions}:
 \code{\link{niters}()},
 \code{\link{npars}()},
 \code{\link{nsims}()},
-\code{\link{nterms}()}
+\code{\link{nterms}()},
+\code{\link{split_chains}()}
 }
 \concept{{MCMC dimensions}}
