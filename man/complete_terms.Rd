@@ -21,5 +21,11 @@ Completes an objects terms.
 Other {terms}: 
 \code{\link{nterms}()},
 \code{\link{pars_terms}()}
+
+Other {MCMC manipulations}: 
+\code{\link{collapse_chains}()},
+\code{\link{fill_na}()},
+\code{\link{split_chains}()}
 }
+\concept{{MCMC manipulations}}
 \concept{{terms}}

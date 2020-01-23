@@ -4,7 +4,7 @@
 #'
 #' @inheritParams params
 #' @return The modified object with one chain.
-#' @family {MCMC dimensions}
+#' @family {MCMC manipulations}
 #' @export
 collapse_chains <- function(x, ...) {
   UseMethod("collapse_chains")

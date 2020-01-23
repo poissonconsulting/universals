@@ -18,13 +18,9 @@ The modified object with one chain.
 Collapses an MCMC object's chains into a single chain.
 }
 \seealso{
-Other {MCMC dimensions}: 
-\code{\link{nchains}()},
-\code{\link{niters}()},
-\code{\link{npars}()},
-\code{\link{nsams}()},
-\code{\link{nsims}()},
-\code{\link{nterms}()},
+Other {MCMC manipulations}: 
+\code{\link{complete_terms}()},
+\code{\link{fill_na}()},
 \code{\link{split_chains}()}
 }
-\concept{{MCMC dimensions}}
+\concept{{MCMC manipulations}}

@@ -6,7 +6,7 @@
 #'
 #' @inheritParams params
 #' @return The modified object with twice the chains and half the iterations.
-#' @family {MCMC dimensions}
+#' @family {MCMC manipulations}
 #' @export
 split_chains <- function(x, ...) {
   UseMethod("split_chains")

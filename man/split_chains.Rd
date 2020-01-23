@@ -20,13 +20,9 @@ to double the number chains
 and halve the number of iterations.
 }
 \seealso{
-Other {MCMC dimensions}: 
+Other {MCMC manipulations}: 
 \code{\link{collapse_chains}()},
-\code{\link{nchains}()},
-\code{\link{niters}()},
-\code{\link{npars}()},
-\code{\link{nsams}()},
-\code{\link{nsims}()},
-\code{\link{nterms}()}
+\code{\link{complete_terms}()},
+\code{\link{fill_na}()}
 }
-\concept{{MCMC dimensions}}
+\concept{{MCMC manipulations}}

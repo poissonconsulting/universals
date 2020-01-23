@@ -19,3 +19,10 @@ The object with missing values filled.
 \description{
 Fills missing values.
 }
+\seealso{
+Other {MCMC manipulations}: 
+\code{\link{collapse_chains}()},
+\code{\link{complete_terms}()},
+\code{\link{split_chains}()}
+}
+\concept{{MCMC manipulations}}
