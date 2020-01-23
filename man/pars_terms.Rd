@@ -24,6 +24,7 @@ Other {parameters}:
 \code{\link{set_pars}()}
 
 Other {terms}: 
+\code{\link{complete_terms}()},
 \code{\link{nterms}()}
 }
 \concept{{parameters}}
