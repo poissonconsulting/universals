@@ -21,6 +21,7 @@ and halve the number of iterations.
 }
 \seealso{
 Other {MCMC dimensions}: 
+\code{\link{collapse_chains}()},
 \code{\link{nchains}()},
 \code{\link{niters}()},
 \code{\link{npars}()},

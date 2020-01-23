@@ -20,6 +20,7 @@ of a Monte Carlo Markov Chain (MCMC) object.
 }
 \seealso{
 Other {MCMC dimensions}: 
+\code{\link{collapse_chains}()},
 \code{\link{nchains}()},
 \code{\link{niters}()},
 \code{\link{npars}()},

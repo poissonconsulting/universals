@@ -21,6 +21,7 @@ Gets the number of parameters of an object as returned by \code{\link[=pars]{par
 \code{\link[=pars]{pars()}}
 
 Other {MCMC dimensions}: 
+\code{\link{collapse_chains}()},
 \code{\link{nchains}()},
 \code{\link{niters}()},
 \code{\link{nsams}()},
