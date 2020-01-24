@@ -6,6 +6,8 @@
 \arguments{
 \item{x}{An object.}
 
+\item{x2}{A second object.}
+
 \item{...}{Other arguments passed to methods.}
 }
 \description{

@@ -21,6 +21,7 @@ and halve the number of iterations.
 }
 \seealso{
 Other {MCMC manipulations}: 
+\code{\link{bind_chains}()},
 \code{\link{collapse_chains}()},
 \code{\link{complete_terms}()},
 \code{\link{fill_na}()}
