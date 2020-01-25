@@ -23,6 +23,7 @@ Binds two MCMC objects (with the same parameters and iterations) by chains.
 Other {MCMC manipulations}: 
 \code{\link{collapse_chains}()},
 \code{\link{complete_terms}()},
+\code{\link{fill_all}()},
 \code{\link{fill_na}()},
 \code{\link{split_chains}()}
 }
