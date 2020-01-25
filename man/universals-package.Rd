@@ -15,8 +15,8 @@ Provides common model-fitting S3 generic methods
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/poissonconsulting/pkgtemplate}
-  \item Report bugs at \url{https://github.com/poissonconsulting/pkgtemplate/issues}
+  \item \url{https://github.com/poissonconsulting/universals}
+  \item Report bugs at \url{https://github.com/poissonconsulting/universals/issues}
 }
 
 }
