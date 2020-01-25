@@ -1,10 +1,10 @@
-#' Number of MCMC Terms
+#' Number of Terms
 #'
 #' Gets the number of terms
-#' of a Monte Carlo Markov Chain (MCMC) object.
+#' of an MCMC object.
 #'
 #' @inheritParams params
-#' @return A count of the number of terms.
+#' @return A integer scalar of the number of terms.
 #' @family {MCMC dimensions}
 #' @family {terms}
 #' @export

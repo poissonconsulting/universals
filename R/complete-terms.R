@@ -1,6 +1,6 @@
 #' Complete Terms
 #'
-#' Completes an objects terms.
+#' Completes an object's terms.
 #'
 #' @inheritParams params
 #' @return The modified object.

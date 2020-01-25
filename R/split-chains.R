@@ -1,11 +1,11 @@
 #' Split Chains
 #'
-#' Splits each chain in half 
+#' Splits each of an MCMC object's chains in half 
 #' to double the number chains 
 #' and halve the number of iterations.
 #'
 #' @inheritParams params
-#' @return The modified object with twice the chains and half the iterations.
+#' @return The modified object.
 #' @family {MCMC manipulations}
 #' @export
 split_chains <- function(x, ...) {

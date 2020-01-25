@@ -2,7 +2,7 @@
 % Please edit documentation in R/pars.R
 \name{pars}
 \alias{pars}
-\title{Get Parameters}
+\title{Parameters}
 \usage{
 pars(x, ...)
 }
@@ -15,7 +15,7 @@ pars(x, ...)
 A character vector of the parameter names.
 }
 \description{
-Gets character vector of parameter names.
+Gets the parameter names.
 }
 \seealso{
 Other {parameters}: 

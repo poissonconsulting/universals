@@ -1,4 +1,4 @@
-#' Parameter Descriptions for universals Functions
+#' Parameter Descriptions
 #'
 #' @param x An object.
 #' @param x2 A second object.

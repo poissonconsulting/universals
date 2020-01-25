@@ -14,10 +14,10 @@ fill_na(x, value, ...)
 \item{...}{Other arguments passed to methods.}
 }
 \value{
-The object with missing values filled.
+The modified object.
 }
 \description{
-Fills missing values.
+Fills an object's missing values.
 }
 \seealso{
 Other {MCMC manipulations}: 

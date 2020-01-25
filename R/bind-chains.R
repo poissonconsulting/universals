@@ -1,9 +1,9 @@
-#' Combine MCMC objects by chains.
+#' Bind by Chains.
 #'
-#' Combines two MCMC objects (with the same parameters and iterations) by chains.
+#' Binds two MCMC objects (with the same parameters and iterations) by chains.
 #'
 #' @inheritParams params
-#' @return The combined objects.
+#' @return The combined object.
 #' @family {MCMC manipulations}
 #' @export
 bind_chains <- function(x, x2, ...) {

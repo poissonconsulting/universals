@@ -2,7 +2,7 @@
 % Please edit documentation in R/pars-terms.R
 \name{pars_terms}
 \alias{pars_terms}
-\title{Get Term Parameters}
+\title{Term Parameters}
 \usage{
 pars_terms(x, ...)
 }
@@ -12,10 +12,10 @@ pars_terms(x, ...)
 \item{...}{Other arguments passed to methods.}
 }
 \value{
-A character vector of the parameter names.
+A character vector of the term parameter names.
 }
 \description{
-Gets a character vector of the name of each parameter for each term.
+Gets the name of each parameter for each term.
 }
 \seealso{
 Other {parameters}: 

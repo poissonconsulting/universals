@@ -2,7 +2,7 @@
 % Please edit documentation in R/params.R
 \name{params}
 \alias{params}
-\title{Parameter Descriptions for universals Functions}
+\title{Parameter Descriptions}
 \arguments{
 \item{x}{An object.}
 
@@ -11,5 +11,5 @@
 \item{...}{Other arguments passed to methods.}
 }
 \description{
-Parameter Descriptions for universals Functions
+Parameter Descriptions
 }

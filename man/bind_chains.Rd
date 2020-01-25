@@ -2,7 +2,7 @@
 % Please edit documentation in R/bind-chains.R
 \name{bind_chains}
 \alias{bind_chains}
-\title{Combine MCMC objects by chains.}
+\title{Bind by Chains.}
 \usage{
 bind_chains(x, x2, ...)
 }
@@ -14,10 +14,10 @@ bind_chains(x, x2, ...)
 \item{...}{Other arguments passed to methods.}
 }
 \value{
-The combined objects.
+The combined object.
 }
 \description{
-Combines two MCMC objects (with the same parameters and iterations) by chains.
+Binds two MCMC objects (with the same parameters and iterations) by chains.
 }
 \seealso{
 Other {MCMC manipulations}: 

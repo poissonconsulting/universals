@@ -15,7 +15,7 @@ npdims(x, ...)
 A named integer vector of the number of dimensions of each parameter.
 }
 \description{
-Gets the numbers of the parameter dimensions of an object.
+Gets the number of the dimensions of each parameter of an object.
 }
 \seealso{
 Other {dimensions}: 

@@ -1,9 +1,9 @@
-#' Get Term Parameters 
+#' Term Parameters 
 #'
-#' Gets a character vector of the name of each parameter for each term.
+#' Gets the name of each parameter for each term.
 #'
 #' @inheritParams params
-#' @return A character vector of the parameter names.
+#' @return A character vector of the term parameter names.
 #' @family {parameters}
 #' @family {terms}
 #' @export

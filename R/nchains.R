@@ -1,10 +1,10 @@
-#' Number of MCMC Chains
+#' Number of Chains
 #'
 #' Gets the number of chains
-#' of a Monte Carlo Markov Chain (MCMC) object.
+#' of an MCMC object.
 #'
 #' @inheritParams params
-#' @return An integer scalar of the number of MCMC chains.
+#' @return An integer scalar of the number of chains.
 #' @family {MCMC dimensions}
 #' @export
 nchains <- function(x, ...) {

@@ -15,7 +15,7 @@ complete_terms(x, ...)
 The modified object.
 }
 \description{
-Completes an objects terms.
+Completes an object's terms.
 }
 \seealso{
 Other {terms}: 

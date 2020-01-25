@@ -1,10 +1,10 @@
-#' Number of MCMC Simulations
+#' Number of Simulations
 #'
 #' Gets the number of simulations (iterations * chains)
-#' of a Monte Carlo Markov Chain (MCMC) object.
+#' of an MCMC object.
 #'
 #' @inheritParams params
-#' @return An integer scalar of the number of MCMC simulations.
+#' @return An integer scalar of the number of simulations.
 #' @family {MCMC dimensions}
 #' @export
 nsims <- function(x, ...) {

@@ -7,7 +7,7 @@
 #' It is useful for extracting the values of individual terms.
 #'
 #' @inheritParams params
-#' @return A named list of the index for each term.
+#' @return A named list of integer vectors of the index for each term.
 #' @family {dimensions}
 #' @export
 tindex <- function(x, ...) UseMethod("tindex")
