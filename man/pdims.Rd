@@ -15,13 +15,15 @@ pdims(x, ...)
 A named list of integer vectors of the dimensions of each parameter.
 }
 \description{
-Gets the dimension of each parameter of an object.
+Gets the dimensions of each parameter of an object.
 }
 \seealso{
 Other {dimensions}: 
 \code{\link{dims}()},
 \code{\link{ndims}()},
+\code{\link{npdims_terms}()},
 \code{\link{npdims}()},
+\code{\link{pdims_terms}()},
 \code{\link{tindex}()}
 }
 \concept{{dimensions}}

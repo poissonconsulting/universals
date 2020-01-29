@@ -26,7 +26,9 @@ It is useful for extracting the values of individual terms.
 Other {dimensions}: 
 \code{\link{dims}()},
 \code{\link{ndims}()},
+\code{\link{npdims_terms}()},
 \code{\link{npdims}()},
+\code{\link{pdims_terms}()},
 \code{\link{pdims}()}
 }
 \concept{{dimensions}}
