@@ -6,4 +6,4 @@
 #' @return A named list of integer vectors of the dimensions of each parameter for each term.
 #' @family {dimensions}
 #' @export
-npdims_terms <- function(x, ...) UseMethod("npdims_term")
+npdims_terms <- function(x, ...) UseMethod("npdims_terms")
