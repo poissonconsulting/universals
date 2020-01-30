@@ -23,6 +23,7 @@ Fills an object's missing values.
 Other {MCMC manipulations}: 
 \code{\link{bind_chains}()},
 \code{\link{collapse_chains}()},
+\code{\link{estimates}()},
 \code{\link{fill_all}()},
 \code{\link{split_chains}()}
 }
