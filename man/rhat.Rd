@@ -12,12 +12,18 @@ rhat(x, ...)
 \item{...}{Other arguments passed to methods.}
 }
 \value{
-The rhat value(s).
+A number >= 1 indicating the rhat value.
 }
 \description{
 Calculates the uncorrected, unfolded, univariate,
-split R-hat (potential scale reduction factor) value(s).
+split R-hat (potential scale reduction factor) value.
 }
 \references{
 Gelman, A., and Rubin, D.B. 1992. Inference from Iterative Simulation Using Multiple Sequences. Statistical Science 7(4): 457–472.
 }
+\seealso{
+Other {convergence}: 
+\code{\link{converged}()},
+\code{\link{esr}()}
+}
+\concept{{convergence}}

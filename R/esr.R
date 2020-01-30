@@ -9,7 +9,8 @@
 #' @references
 #' Brooks, S., Gelman, A., Jones, G.L., and Meng, X.-L. (Editors). 2011. Handbook for Markov Chain Monte Carlo. Taylor & Francis, Boca Raton.
 #' @inheritParams params
-#' @return The esr value(s).
+#' @return A positive number indicating the esr value.
+#' @family {convergence}
 #' @export
 esr <- function(x, ...) {
   UseMethod("esr")

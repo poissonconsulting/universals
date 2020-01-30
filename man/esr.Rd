@@ -12,7 +12,7 @@ esr(x, ...)
 \item{...}{Other arguments passed to methods.}
 }
 \value{
-The esr value(s).
+A positive number indicating the esr value.
 }
 \description{
 Calculates the effective sampling rate (\code{esr}) based on the formula
@@ -24,3 +24,9 @@ lag \eqn{k} when \eqn{\rho_{k+1}(\theta) < 0}.
 \references{
 Brooks, S., Gelman, A., Jones, G.L., and Meng, X.-L. (Editors). 2011. Handbook for Markov Chain Monte Carlo. Taylor & Francis, Boca Raton.
 }
+\seealso{
+Other {convergence}: 
+\code{\link{converged}()},
+\code{\link{rhat}()}
+}
+\concept{{convergence}}

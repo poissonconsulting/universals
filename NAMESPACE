@@ -2,6 +2,7 @@
 
 export(bind_chains)
 export(collapse_chains)
+export(converged)
 export(dims)
 export(esr)
 export(fill_all)
