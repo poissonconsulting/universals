@@ -3,6 +3,7 @@
 export(bind_chains)
 export(collapse_chains)
 export(dims)
+export(esr)
 export(fill_all)
 export(fill_na)
 export(nchains)
