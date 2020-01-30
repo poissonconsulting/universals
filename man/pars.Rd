@@ -20,7 +20,6 @@ Gets the parameter names.
 \seealso{
 Other {parameters}: 
 \code{\link{npars}()},
-\code{\link{pars_terms}()},
 \code{\link{set_pars}()}
 }
 \concept{{parameters}}

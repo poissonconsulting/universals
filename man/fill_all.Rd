@@ -23,7 +23,6 @@ Fills all (missing and non-missing) of an object's values while preserving its d
 Other {MCMC manipulations}: 
 \code{\link{bind_chains}()},
 \code{\link{collapse_chains}()},
-\code{\link{complete_terms}()},
 \code{\link{fill_na}()},
 \code{\link{split_chains}()}
 }

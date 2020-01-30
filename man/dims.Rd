@@ -26,7 +26,6 @@ Unlike \code{base::dim()}, dims returns the length of an atomic vector.
 Other {dimensions}: 
 \code{\link{ndims}()},
 \code{\link{npdims}()},
-\code{\link{pdims}()},
-\code{\link{tindex}()}
+\code{\link{pdims}()}
 }
 \concept{{dimensions}}

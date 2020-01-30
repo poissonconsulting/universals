@@ -21,7 +21,6 @@ Gets the number of dimensions of an object as returned by \code{dims()}.
 Other {dimensions}: 
 \code{\link{dims}()},
 \code{\link{npdims}()},
-\code{\link{pdims}()},
-\code{\link{tindex}()}
+\code{\link{pdims}()}
 }
 \concept{{dimensions}}

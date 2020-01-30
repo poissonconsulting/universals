@@ -23,7 +23,6 @@ and halve the number of iterations.
 Other {MCMC manipulations}: 
 \code{\link{bind_chains}()},
 \code{\link{collapse_chains}()},
-\code{\link{complete_terms}()},
 \code{\link{fill_all}()},
 \code{\link{fill_na}()}
 }

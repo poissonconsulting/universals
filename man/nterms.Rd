@@ -25,10 +25,5 @@ Other {MCMC dimensions}:
 \code{\link{npars}()},
 \code{\link{nsams}()},
 \code{\link{nsims}()}
-
-Other {terms}: 
-\code{\link{complete_terms}()},
-\code{\link{pars_terms}()}
 }
 \concept{{MCMC dimensions}}
-\concept{{terms}}

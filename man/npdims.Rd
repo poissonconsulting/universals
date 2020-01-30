@@ -21,7 +21,6 @@ Gets the number of the dimensions of each parameter of an object.
 Other {dimensions}: 
 \code{\link{dims}()},
 \code{\link{ndims}()},
-\code{\link{pdims}()},
-\code{\link{tindex}()}
+\code{\link{pdims}()}
 }
 \concept{{dimensions}}
