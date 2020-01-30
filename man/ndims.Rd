@@ -20,9 +20,7 @@ Gets the number of dimensions of an object as returned by \code{dims()}.
 \seealso{
 Other {dimensions}: 
 \code{\link{dims}()},
-\code{\link{npdims_terms}()},
 \code{\link{npdims}()},
-\code{\link{pdims_terms}()},
 \code{\link{pdims}()},
 \code{\link{tindex}()}
 }
