@@ -4,12 +4,14 @@
 \alias{set_pars}
 \title{Set Parameters}
 \usage{
-set_pars(x, value)
+set_pars(x, value, ...)
 }
 \arguments{
 \item{x}{An object.}
 
 \item{value}{A character vector of the new parameter names.}
+
+\item{...}{Other arguments passed to methods.}
 }
 \value{
 The modified object.

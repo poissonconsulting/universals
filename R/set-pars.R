@@ -9,6 +9,6 @@
 #' @family {parameters}
 #' @return The modified object.
 #' @export
-set_pars <- function(x, value) {
+set_pars <- function(x, value, ...) {
   UseMethod("set_pars")
 }
