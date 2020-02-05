@@ -1,7 +1,7 @@
 #' Split Chains
 #'
-#' Splits each of an MCMC object's chains in half 
-#' to double the number chains 
+#' Splits each of an MCMC object's chains in half
+#' to double the number chains
 #' and halve the number of iterations.
 #'
 #' @inheritParams params

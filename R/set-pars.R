@@ -1,7 +1,7 @@
 #' Set Parameters
 #'
 #' Sets an object's parameter names.
-#' 
+#'
 #' `value` must be a unique character vector of the same length as the object's parameters.
 #'
 #' @inheritParams params
