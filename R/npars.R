@@ -1,6 +1,6 @@
 #' Number of Parameters
 #'
-#' Gets the number of parameters of an object as returned by [pars()].
+#' Gets the number of parameters of an object.
 #'
 #' @inheritParams params
 #' @return An integer scalar of the number of parameters.

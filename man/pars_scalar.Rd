@@ -19,6 +19,7 @@ Gets the scalar parameter names.
 }
 \seealso{
 Other {parameters}: 
+\code{\link{npars_scalar}()},
 \code{\link{npars}()},
 \code{\link{pars}()},
 \code{\link{set_pars}()}

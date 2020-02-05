@@ -22,6 +22,7 @@ of an MCMC object.
 Other {MCMC dimensions}: 
 \code{\link{nchains}()},
 \code{\link{niters}()},
+\code{\link{npars_scalar}()},
 \code{\link{npars}()},
 \code{\link{nsims}()},
 \code{\link{nterms}()}
