@@ -6,8 +6,6 @@
 \alias{universals-package}
 \title{universals: More Common Model-Fitting S3 Generics}
 \description{
-\if{html}{\figure{logo.png}{options: align='right' alt='logo' width='120'}}
-
 Provides common model-fitting S3 generic methods 
     missing from base R and the generics package to reduce package dependencies
     and conflicts.

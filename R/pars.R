@@ -1,4 +1,4 @@
-#' Parameters
+#' Parameter Names
 #'
 #' Gets the parameter names.
 #'

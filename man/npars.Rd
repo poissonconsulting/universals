@@ -28,6 +28,7 @@ Other {MCMC dimensions}:
 \code{\link{nterms}()}
 
 Other {parameters}: 
+\code{\link{pars_scalar}()},
 \code{\link{pars}()},
 \code{\link{set_pars}()}
 }

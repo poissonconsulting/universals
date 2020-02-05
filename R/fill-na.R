@@ -1,6 +1,6 @@
 #' Fill Missing Values
 #'
-#' Fills an object's missing values.
+#' Fills an object's missing values while preserving the object's class.
 #'
 #' @inheritParams params
 #' @param value A scalar of the value to replace missing values with.

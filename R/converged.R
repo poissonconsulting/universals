@@ -1,4 +1,4 @@
-#' Object Converged
+#' Converged
 #'
 #' Tests whether an object has converged.
 #'

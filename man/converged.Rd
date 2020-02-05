@@ -2,7 +2,7 @@
 % Please edit documentation in R/converged.R
 \name{converged}
 \alias{converged}
-\title{Object Converged}
+\title{Converged}
 \usage{
 converged(x, ...)
 }

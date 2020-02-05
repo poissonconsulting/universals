@@ -1,6 +1,6 @@
 #' Number of Samples
 #'
-#' Gets the number of samples values (simulations * terms)
+#' Gets the number of sample values (simulations * terms)
 #' of an MCMC object.
 #'
 #' @inheritParams params
