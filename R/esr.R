@@ -1,6 +1,6 @@
 #' Effective Sampling Rate
 #'
-#' Calculates the effective sampling rate (\code{esr}) based on the formula
+#' Calculates the effective sampling rate (`esr`) based on the formula
 #' \deqn{\frac{1}{1 + 2 \sum_{k = 1}^\infty\rho_k(\theta)}}
 #' in Brooks et al. (2011).
 #' The infinite sum is truncated at
