@@ -1,13 +1,13 @@
 Package: universals
-Title: More Common Model-Fitting S3 Generics
+Title: Common S3 Generics for Bayesian Analyses
 Version: 0.0.0.9004
 Authors@R: c(
     person("Joe", "Thorley", , "joe@poissonconsulting.ca", c("aut", "cre"), comment = c(ORCID = "0000-0002-7683-4592")),
     person("Poisson Consulting", role = c("cph", "fnd"))
     )
-Description: Provides common model-fitting S3 generic methods 
-    missing from base R and the generics package to reduce package dependencies
-    and conflicts.
+Description: Provides common S3 generic methods for Bayesian Analyses
+    that are missing from base R and the generics package 
+    to reduce package dependencies and conflicts.
 License: MIT + file LICENSE
 Depends: R (>= 3.3)
 URL: https://github.com/poissonconsulting/universals

@@ -25,8 +25,10 @@ knitr::opts_chunk$set(
 <!-- ![CRAN downloads](https://cranlogs.r-pkg.org/badges/universals) -->
 <!-- badges: end -->
 
-`universals` provides common model-fitting S3 generic methods 
-missing from base R and the [`generics`](https://github.com/r-lib/generics) package to reduce package dependencies and conflicts.
+`universals` provides common S3 generic methods 
+for Bayesian Analyses
+that are missing from base R and the [`generics`](https://github.com/r-lib/generics) package 
+to reduce package dependencies and conflicts.
 
 ## Philosophy
 
@@ -78,7 +80,7 @@ universals::pars
 
 The `universals` package is heavily inspired by the [`generics`](https://github.com/r-lib/generics) package.
 
-It's possible that some of the methods migrate to that package in a future release.
+It is possible that some of the methods migrate to that package in a future release.
 
 ## Contribution
 

@@ -4,11 +4,11 @@
 \name{universals-package}
 \alias{universals}
 \alias{universals-package}
-\title{universals: More Common Model-Fitting S3 Generics}
+\title{universals: Common S3 Generics for Bayesian Analyses}
 \description{
-Provides common model-fitting S3 generic methods 
-    missing from base R and the generics package to reduce package dependencies
-    and conflicts.
+Provides common S3 generic methods for Bayesian Analyses
+    that are missing from base R and the generics package 
+    to reduce package dependencies and conflicts.
 }
 \seealso{
 Useful links:
