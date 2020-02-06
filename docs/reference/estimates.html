@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Complete Terms — complete_terms • universals</title>
+<title>Estimates — estimates • universals</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -42,9 +42,8 @@
 
 
 
-<meta property="og:title" content="Complete Terms — complete_terms" />
-<meta property="og:description" content="Completes an object's terms." />
-<meta property="og:image" content="/logo.png" />
+<meta property="og:title" content="Estimates — estimates" />
+<meta property="og:description" content="Calculates the estimates for an MCMC object." />
 <meta name="twitter:card" content="summary" />
 
 
@@ -77,7 +76,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">universals</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.0.9001</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.0.9004</span>
       </span>
     </div>
 
@@ -116,16 +115,16 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Complete Terms</h1>
-    <small class="dont-index">Source: <a href='https://github.com/poissonconsulting/universals/blob/master/R/complete-terms.R'><code>R/complete-terms.R</code></a></small>
-    <div class="hidden name"><code>complete_terms.Rd</code></div>
+    <h1>Estimates</h1>
+    <small class="dont-index">Source: <a href='https://github.com/poissonconsulting/universals/blob/master/R/estimates.R'><code>R/estimates.R</code></a></small>
+    <div class="hidden name"><code>estimates.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Completes an object's terms.</p>
+    <p>Calculates the estimates for an MCMC object.</p>
     </div>
 
-    <pre class="usage"><span class='fu'>complete_terms</span>(<span class='no'>x</span>, <span class='no'>...</span>)</pre>
+    <pre class="usage"><span class='fu'>estimates</span>(<span class='no'>x</span>, <span class='no'>...</span>)</pre>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
@@ -142,15 +141,13 @@
 
     <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
-    <p>The modified object.</p>
+    <p>An <code><a href='https://rdrr.io/pkg/nlist/man/nlist.html'>nlist::nlist()</a></code> object.</p>
     <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
-    <div class='dont-index'><p>Other terms: 
-<code><a href='nterms.html'>nterms</a>()</code>,
-<code><a href='pars_terms.html'>pars_terms</a>()</code></p>
-<p>Other MCMC manipulations: 
+    <div class='dont-index'><p>Other MCMC manipulations: 
 <code><a href='bind_chains.html'>bind_chains</a>()</code>,
 <code><a href='collapse_chains.html'>collapse_chains</a>()</code>,
+<code><a href='fill_all.html'>fill_all</a>()</code>,
 <code><a href='fill_na.html'>fill_na</a>()</code>,
 <code><a href='split_chains.html'>split_chains</a>()</code></p></div>
 

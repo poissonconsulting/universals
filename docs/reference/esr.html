@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Set Parameters — set_pars • universals</title>
+<title>Effective Sampling Rate — esr • universals</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -42,8 +42,12 @@
 
 
 
-<meta property="og:title" content="Set Parameters — set_pars" />
-<meta property="og:description" content="Sets an object's parameter names." />
+<meta property="og:title" content="Effective Sampling Rate — esr" />
+<meta property="og:description" content="Calculates the effective sampling rate (esr) based on the formula
+$$\frac{1}{1 + 2 \sum_{k = 1}^\infty\rho_k(\theta)}$$
+in Brooks et al. (2011).
+The infinite sum is truncated at
+lag \(k\) when \(\rho_{k+1}(\theta) &amp;lt; 0\)." />
 <meta name="twitter:card" content="summary" />
 
 
@@ -115,16 +119,20 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Set Parameters</h1>
-    <small class="dont-index">Source: <a href='https://github.com/poissonconsulting/universals/blob/master/R/set-pars.R'><code>R/set-pars.R</code></a></small>
-    <div class="hidden name"><code>set_pars.Rd</code></div>
+    <h1>Effective Sampling Rate</h1>
+    <small class="dont-index">Source: <a href='https://github.com/poissonconsulting/universals/blob/master/R/esr.R'><code>R/esr.R</code></a></small>
+    <div class="hidden name"><code>esr.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Sets an object's parameter names.</p>
+    <p>Calculates the effective sampling rate (<code>esr</code>) based on the formula
+$$\frac{1}{1 + 2 \sum_{k = 1}^\infty\rho_k(\theta)}$$
+in Brooks et al. (2011).
+The infinite sum is truncated at
+lag \(k\) when \(\rho_{k+1}(\theta) &lt; 0\).</p>
     </div>
 
-    <pre class="usage"><span class='fu'>set_pars</span>(<span class='no'>x</span>, <span class='no'>value</span>, <span class='no'>...</span>)</pre>
+    <pre class="usage"><span class='fu'>esr</span>(<span class='no'>x</span>, <span class='no'>...</span>)</pre>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
@@ -134,10 +142,6 @@
       <td><p>An object.</p></td>
     </tr>
     <tr>
-      <th>value</th>
-      <td><p>A character vector of the new parameter names.</p></td>
-    </tr>
-    <tr>
       <th>...</th>
       <td><p>Other arguments passed to methods.</p></td>
     </tr>
@@ -145,17 +149,15 @@
 
     <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
-    <p>The modified object.</p>
-    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
+    <p>A positive number indicating the esr value.</p>
+    <h2 class="hasAnchor" id="references"><a class="anchor" href="#references"></a>References</h2>
 
-    <p><code>value</code> must be a unique character vector of the same length as the object's parameters.</p>
+    <p>Brooks, S., Gelman, A., Jones, G.L., and Meng, X.-L. (Editors). 2011. Handbook for Markov Chain Monte Carlo. Taylor &amp; Francis, Boca Raton.</p>
     <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
-    <div class='dont-index'><p>Other parameters: 
-<code><a href='npars_scalar.html'>npars_scalar</a>()</code>,
-<code><a href='npars.html'>npars</a>()</code>,
-<code><a href='pars_scalar.html'>pars_scalar</a>()</code>,
-<code><a href='pars.html'>pars</a>()</code></p></div>
+    <div class='dont-index'><p>Other convergence: 
+<code><a href='converged.html'>converged</a>()</code>,
+<code><a href='rhat.html'>rhat</a>()</code></p></div>
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
@@ -163,7 +165,7 @@
     <ul class="nav nav-pills nav-stacked">
       <li><a href="#arguments">Arguments</a></li>
       <li><a href="#value">Value</a></li>
-      <li><a href="#details">Details</a></li>
+      <li><a href="#references">References</a></li>
       <li><a href="#see-also">See also</a></li>
     </ul>
 
