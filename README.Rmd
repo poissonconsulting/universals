@@ -20,7 +20,6 @@ knitr::opts_chunk$set(
 [![Travis build status](https://travis-ci.com/poissonconsulting/universals.svg?branch=master)](https://travis-ci.com/poissonconsulting/universals)
 [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/poissonconsulting/universals?branch=master&svg=true)](https://ci.appveyor.com/project/poissonconsulting/universals)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-<!-- [![Tinyverse status](https://tinyverse.netlify.com/badge/universals)](https://CRAN.R-project.org/package=universals) -->
 [![CRAN status](https://www.r-pkg.org/badges/version/universals)](https://cran.r-project.org/package=universals)
 <!-- ![CRAN downloads](https://cranlogs.r-pkg.org/badges/universals) -->
 <!-- badges: end -->
