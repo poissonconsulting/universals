@@ -9,6 +9,10 @@
 numericise <- function(x, ...) UseMethod("numericise")
 
 #' @rdname numericise
-#' @details `numericize()` is an alias for numericise.
+#' @details
+#' `numericize()` is an alias for numericise.
+#' If you implement a method for a class `"foo"`, implement
+#' `numericise.foo()`.
+#'
 #' @export
 numericize <- function(x, ...) UseMethod("numericise")

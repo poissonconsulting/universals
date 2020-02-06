@@ -22,4 +22,6 @@ Coerce an R object to a numeric atomic object.
 }
 \details{
 \code{numericize()} is an alias for numericise.
+If you implement a method for a class \code{"foo"}, implement
+\code{numericise.foo()}.
 }
