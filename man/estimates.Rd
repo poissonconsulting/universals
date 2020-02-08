@@ -12,7 +12,7 @@ estimates(x, ...)
 \item{...}{Other arguments passed to methods.}
 }
 \value{
-An \code{\link[nlist]{nlist}()} object.
+An \code{\link[nlist:nlist]{nlist::nlist()}} object.
 }
 \description{
 Calculates the estimates for an MCMC object.
