@@ -3,7 +3,7 @@
 #' Gets the scalar parameter names.
 #'
 #' @inheritParams params
-#' @return A character vector of the scalar parameter names.
+#' @return A character vector of the names of the scalar parameters.
 #' @family {parameters}
 #' @export
 pars_scalar <- function(x, ...) {

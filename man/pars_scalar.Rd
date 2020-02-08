@@ -12,7 +12,7 @@ pars_scalar(x, ...)
 \item{...}{Other arguments passed to methods.}
 }
 \value{
-A character vector of the scalar parameter names.
+A character vector of the names of the scalar parameters.
 }
 \description{
 Gets the scalar parameter names.

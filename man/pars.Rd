@@ -12,7 +12,7 @@ pars(x, ...)
 \item{...}{Other arguments passed to methods.}
 }
 \value{
-A character vector of the parameter names.
+A character vector of the names of the parameters.
 }
 \description{
 Gets the parameter names.
