@@ -8,8 +8,16 @@ release 3.6.2
 
 ## R CMD check results
 
-0 errors | 0 warnings | 1 note
+0 errors | 1 warning | 1 note
 
-* This is a new release.
+* checking for code which exercises the package ... WARNING
+No examples, no tests, no vignettes
 
-* There are no examples or tests because it only defines generics.
+There are no examples, tests or vignettes because it only defines generics.
+
+* checking CRAN incoming feasibility ... NOTE
+Maintainer: 'Joe Thorley <joe@poissonconsulting.ca>'
+
+New submission
+
+This is a new submission.
