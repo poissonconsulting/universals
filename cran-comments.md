@@ -11,3 +11,5 @@ release 3.6.2
 0 errors | 0 warnings | 1 note
 
 * This is a new release.
+
+* There are no examples or tests because it only defines generics.
