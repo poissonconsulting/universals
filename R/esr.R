@@ -12,6 +12,10 @@
 #' @return A positive number indicating the esr value.
 #' @family {convergence}
 #' @export
+#' esr.foobar <- function(x, ...) {
+#'  NotYetImplemented()
+#'  # replace with code to get esr for an object of class 'foobar'
+#' }
 esr <- function(x, ...) {
   UseMethod("esr")
 }

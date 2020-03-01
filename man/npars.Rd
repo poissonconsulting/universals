@@ -17,6 +17,11 @@ An integer scalar of the number of parameters.
 \description{
 Gets the number of parameters of an object.
 }
+\examples{
+npars.foobar <- function(x, ...) {
+ length(pars(x, ...))
+}
+}
 \seealso{
 \code{\link[=pars]{pars()}}
 

@@ -18,6 +18,12 @@ An integer scalar of the number of samples.
 Gets the number of sample values (simulations * terms)
 of an MCMC object.
 }
+\examples{
+nsams.foobar <- function(x, ...) {
+ NotYetImplemented()
+ # replace with code to get nsams for an object of class 'foobar'
+}
+}
 \seealso{
 Other {MCMC dimensions}: 
 \code{\link{nchains}()},

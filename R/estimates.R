@@ -6,6 +6,10 @@
 #' @return An [nlist::nlist()] object.
 #' @family {MCMC manipulations}
 #' @export
+#' estimates.foobar <- function(x, ...) {
+#'  NotYetImplemented()
+#'  # replace with code to get estimates for an object of class 'foobar'
+#' }
 estimates <- function(x, ...) {
   UseMethod("estimates")
 }

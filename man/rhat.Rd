@@ -18,6 +18,12 @@ A number >= 1 indicating the rhat value.
 Calculates the uncorrected, unfolded, univariate,
 split R-hat (potential scale reduction factor) value.
 }
+\examples{
+rhat.foobar <- function(x, ...) {
+ NotYetImplemented()
+ # replace with code to get rhat for an object of class 'foobar'
+}
+}
 \references{
 Gelman, A., and Rubin, D.B. 1992. Inference from Iterative Simulation Using Multiple Sequences. Statistical Science 7(4): 457–472.
 }

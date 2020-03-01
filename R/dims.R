@@ -9,6 +9,10 @@
 #' @seealso [base::dim()]
 #' @family {dimensions}
 #' @export
+#' dims.foobar <- function(x, ...) {
+#'  NotYetImplemented()
+#'  # replace with code to get dims for an object of class 'foobar'
+#' }
 dims <- function(x, ...) {
   UseMethod("dims")
 }

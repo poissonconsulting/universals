@@ -17,6 +17,11 @@ A integer scalar of the number of dimensions.
 \description{
 Gets the number of dimensions of an object as returned by \code{dims()}.
 }
+\examples{
+ndims.foobar <- function(x, ...) {
+ length(dims(x, ...))
+}
+}
 \seealso{
 Other {dimensions}: 
 \code{\link{dims}()},

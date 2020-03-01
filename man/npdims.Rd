@@ -17,6 +17,11 @@ A named integer vector of the number of dimensions of each parameter.
 \description{
 Gets the number of the dimensions of each parameter of an object.
 }
+\examples{
+npdims.foobar <- function(x, ...) {
+ vapply(pdims(x, ...), length, 1L)
+}
+}
 \seealso{
 Other {dimensions}: 
 \code{\link{dims}()},

@@ -18,6 +18,12 @@ An integer scalar of the number of iterations.
 Gets the number of iterations (in a chain)
 of an MCMC object.
 }
+\examples{
+niters.foobar <- function(x, ...) {
+ NotYetImplemented()
+ # replace with code to get niters for an object of class 'foobar'
+}
+}
 \seealso{
 Other {MCMC dimensions}: 
 \code{\link{nchains}()},

@@ -7,4 +7,8 @@
 #' @return The modified object.
 #' @family {MCMC manipulations}
 #' @export
+#' fill_na.foobar <- function(x, ...) {
+#'  NotYetImplemented()
+#'  # replace with code to fill_na for an object of class 'foobar'
+#' }
 fill_na <- function(x, value, ...) UseMethod("fill_na")

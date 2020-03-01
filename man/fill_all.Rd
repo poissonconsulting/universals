@@ -19,6 +19,12 @@ The modified object.
 \description{
 Fills all of an object's (missing and non-missing) values while preserving the object's dimensionality and class.
 }
+\examples{
+fill_all.foobar <- function(x, ...) {
+ NotYetImplemented()
+ # replace with code to fill_all for an object of class 'foobar'
+}
+}
 \seealso{
 Other {MCMC manipulations}: 
 \code{\link{bind_chains}()},

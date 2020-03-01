@@ -17,6 +17,12 @@ A character vector of the names of the scalar parameters.
 \description{
 Gets the scalar parameter names.
 }
+\examples{
+pars_scalar.foobar <- function(x, ...) {
+ NotYetImplemented()
+ # replace with code to get pars_scalar for an object of class 'foobar'
+}
+}
 \seealso{
 Other {parameters}: 
 \code{\link{npars_scalar}()},

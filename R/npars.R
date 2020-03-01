@@ -8,4 +8,8 @@
 #' @family {MCMC dimensions}
 #' @family {parameters}
 #' @export
+#' @examples
+#' npars.foobar <- function(x, ...) {
+#'  length(pars(x, ...))
+#' }
 npars <- function(x, ...) UseMethod("npars")
