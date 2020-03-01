@@ -8,8 +8,7 @@
 #' @family {MCMC dimensions}
 #' @export
 #' nsims.foobar <- function(x, ...) {
-#'  NotYetImplemented()
-#'  # replace with code to get nsims for an object of class 'foobar'
+#'  niters(x, ...) * nchains(x, ...)
 #' }
 nsims <- function(x, ...) {
   UseMethod("nsims")

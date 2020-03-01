@@ -20,8 +20,7 @@ of an MCMC object.
 }
 \examples{
 nsams.foobar <- function(x, ...) {
- NotYetImplemented()
- # replace with code to get nsams for an object of class 'foobar'
+  nsims(x, ...) * nterms(x, ...)
 }
 }
 \seealso{
