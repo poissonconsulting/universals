@@ -5,7 +5,7 @@
 #'
 #' @inheritParams params
 #' @return An integer scalar of the number of iterations.
-#' @family {MCMC dimensions}
+#' @family MCMC dimensions
 #' @export
 #' @examples
 #' niters.foobar <- function(x, ...) {

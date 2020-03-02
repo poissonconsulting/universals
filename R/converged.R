@@ -4,7 +4,7 @@
 #'
 #' @inheritParams params
 #' @return A logical scalar indicating whether the object has converged.
-#' @family {convergence}
+#' @family convergence
 #' @export
 #' @examples
 #' converged.foobar <- function(x, ...) {

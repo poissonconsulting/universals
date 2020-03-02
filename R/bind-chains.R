@@ -4,7 +4,7 @@
 #'
 #' @inheritParams params
 #' @return The combined object.
-#' @family {MCMC manipulations}
+#' @family MCMC manipulations
 #' @export
 #' @examples
 #' bind_chains.foobar <- function(x, x2, ...) {

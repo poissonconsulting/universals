@@ -25,7 +25,7 @@ nchains.foobar <- function(x, ...) {
 }
 }
 \seealso{
-Other {MCMC dimensions}: 
+Other MCMC dimensions: 
 \code{\link{niters}()},
 \code{\link{npars_scalar}()},
 \code{\link{npars}()},
@@ -33,4 +33,4 @@ Other {MCMC dimensions}:
 \code{\link{nsims}()},
 \code{\link{nterms}()}
 }
-\concept{{MCMC dimensions}}
+\concept{MCMC dimensions}

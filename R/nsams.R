@@ -5,7 +5,7 @@
 #'
 #' @inheritParams params
 #' @return An integer scalar of the number of samples.
-#' @family {MCMC dimensions}
+#' @family MCMC dimensions
 #' @export
 #' @examples
 #' nsams.foobar <- function(x, ...) {

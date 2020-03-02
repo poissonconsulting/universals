@@ -6,7 +6,7 @@
 #'
 #' @inheritParams params
 #' @param value A character vector of the new parameter names.
-#' @family {parameters}
+#' @family parameters
 #' @return The modified object.
 #' @export
 #' @examples

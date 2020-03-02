@@ -5,7 +5,7 @@
 #' @inheritParams params
 #' @param value A scalar of the value to replace all values with.
 #' @return The modified object.
-#' @family {MCMC manipulations}
+#' @family MCMC manipulations
 #' @export
 #' @examples
 #' fill_all.foobar <- function(x, ...) {

@@ -4,7 +4,7 @@
 #'
 #' @inheritParams params
 #' @return An list of uniquely named numeric atomic objects.
-#' @family {MCMC manipulations}
+#' @family MCMC manipulations
 #' @export
 #' @examples
 #' estimates.foobar <- function(x, ...) {

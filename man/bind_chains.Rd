@@ -26,11 +26,11 @@ bind_chains.foobar <- function(x, x2, ...) {
 }
 }
 \seealso{
-Other {MCMC manipulations}: 
+Other MCMC manipulations: 
 \code{\link{collapse_chains}()},
 \code{\link{estimates}()},
 \code{\link{fill_all}()},
 \code{\link{fill_na}()},
 \code{\link{split_chains}()}
 }
-\concept{{MCMC manipulations}}
+\concept{MCMC manipulations}

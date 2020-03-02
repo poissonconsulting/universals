@@ -24,9 +24,9 @@ pdims.foobar <- function(x, ...) {
 }
 }
 \seealso{
-Other {dimensions}: 
+Other dimensions: 
 \code{\link{dims}()},
 \code{\link{ndims}()},
 \code{\link{npdims}()}
 }
-\concept{{dimensions}}
+\concept{dimensions}

@@ -4,7 +4,7 @@
 #'
 #' @inheritParams params
 #' @return The modified object with one chain.
-#' @family {MCMC manipulations}
+#' @family MCMC manipulations
 #' @export
 #' @examples
 #' collapse_chains.foobar <- function(x, ...) {

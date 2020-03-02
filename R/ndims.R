@@ -4,7 +4,7 @@
 #'
 #' @inheritParams params
 #' @return A integer scalar of the number of dimensions.
-#' @family {dimensions}
+#' @family dimensions
 #' @export
 #' @examples
 #' ndims.foobar <- function(x, ...) {

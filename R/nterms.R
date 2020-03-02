@@ -5,7 +5,7 @@
 #'
 #' @inheritParams params
 #' @return A integer scalar of the number of terms.
-#' @family {MCMC dimensions}
+#' @family MCMC dimensions
 #' @export
 #' @examples
 #' nterms.foobar <- function(x, ...) {

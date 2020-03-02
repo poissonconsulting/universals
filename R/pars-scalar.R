@@ -4,7 +4,7 @@
 #'
 #' @inheritParams params
 #' @return A character vector of the names of the scalar parameters.
-#' @family {parameters}
+#' @family parameters
 #' @export
 #' @examples
 #' pars_scalar.foobar <- function(x, ...) {

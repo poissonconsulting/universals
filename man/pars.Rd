@@ -24,10 +24,10 @@ pars.foobar <- function(x, ...) {
 }
 }
 \seealso{
-Other {parameters}: 
+Other parameters: 
 \code{\link{npars_scalar}()},
 \code{\link{npars}()},
 \code{\link{pars_scalar}()},
 \code{\link{set_pars}()}
 }
-\concept{{parameters}}
+\concept{parameters}

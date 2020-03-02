@@ -4,7 +4,7 @@
 #'
 #' @inheritParams params
 #' @return A named list of integer vectors of the dimensions of each parameter.
-#' @family {dimensions}
+#' @family dimensions
 #' @export
 #' @examples
 #' pdims.foobar <- function(x, ...) {

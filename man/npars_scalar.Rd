@@ -25,7 +25,7 @@ npars_scalar.foobar <- function(x, ...) {
 \seealso{
 \code{\link[=pars_scalar]{pars_scalar()}}
 
-Other {MCMC dimensions}: 
+Other MCMC dimensions: 
 \code{\link{nchains}()},
 \code{\link{niters}()},
 \code{\link{npars}()},
@@ -33,11 +33,11 @@ Other {MCMC dimensions}:
 \code{\link{nsims}()},
 \code{\link{nterms}()}
 
-Other {parameters}: 
+Other parameters: 
 \code{\link{npars}()},
 \code{\link{pars_scalar}()},
 \code{\link{pars}()},
 \code{\link{set_pars}()}
 }
-\concept{{MCMC dimensions}}
-\concept{{parameters}}
+\concept{MCMC dimensions}
+\concept{parameters}

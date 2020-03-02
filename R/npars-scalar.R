@@ -5,8 +5,8 @@
 #' @inheritParams params
 #' @return An integer scalar of the number of scalar parameters.
 #' @seealso [pars_scalar()]
-#' @family {MCMC dimensions}
-#' @family {parameters}
+#' @family MCMC dimensions
+#' @family parameters
 #' @export
 #' @examples
 #' npars_scalar.foobar <- function(x, ...) {

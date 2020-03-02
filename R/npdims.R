@@ -4,7 +4,7 @@
 #'
 #' @inheritParams params
 #' @return A named integer vector of the number of dimensions of each parameter.
-#' @family {dimensions}
+#' @family dimensions
 #' @export
 #' @examples
 #' npdims.foobar <- function(x, ...) {

@@ -31,8 +31,8 @@ esr.foobar <- function(x, ...) {
 Brooks, S., Gelman, A., Jones, G.L., and Meng, X.-L. (Editors). 2011. Handbook for Markov Chain Monte Carlo. Taylor & Francis, Boca Raton.
 }
 \seealso{
-Other {convergence}: 
+Other convergence: 
 \code{\link{converged}()},
 \code{\link{rhat}()}
 }
-\concept{{convergence}}
+\concept{convergence}

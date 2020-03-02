@@ -6,7 +6,7 @@
 #'
 #' @inheritParams params
 #' @return The modified object.
-#' @family {MCMC manipulations}
+#' @family MCMC manipulations
 #' @export
 #' @examples
 #' split_chains.foobar <- function(x, ...) {

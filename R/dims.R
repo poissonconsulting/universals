@@ -7,7 +7,7 @@
 #' @inheritParams params
 #' @return An integer vector of the dimensions.
 #' @seealso [base::dim()]
-#' @family {dimensions}
+#' @family dimensions
 #' @export
 #' @examples
 #' dims.foobar <- function(x, ...) {
