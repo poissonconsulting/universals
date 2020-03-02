@@ -17,6 +17,12 @@ A logical scalar indicating whether the object has converged.
 \description{
 Tests whether an object has converged.
 }
+\examples{
+converged.foobar <- function(x, ...) {
+ NotYetImplemented()
+ # replace with code to get converged for an object of class 'foobar'
+}
+}
 \seealso{
 Other {convergence}: 
 \code{\link{esr}()},

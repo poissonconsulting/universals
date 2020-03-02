@@ -19,6 +19,12 @@ The modified object.
 \description{
 Fills an object's missing values while preserving the object's class.
 }
+\examples{
+fill_na.foobar <- function(x, ...) {
+ NotYetImplemented()
+ # replace with code to fill_na for an object of class 'foobar'
+}
+}
 \seealso{
 Other {MCMC manipulations}: 
 \code{\link{bind_chains}()},
