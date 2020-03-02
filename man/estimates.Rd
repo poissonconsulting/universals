@@ -12,7 +12,7 @@ estimates(x, ...)
 \item{...}{Other arguments passed to methods.}
 }
 \value{
-An \code{\link[nlist:nlist]{nlist::nlist()}} object.
+An list of uniquely named numeric atomic objects.
 }
 \description{
 Calculates the estimates for an MCMC object.
