@@ -19,8 +19,8 @@ Tests whether an object has converged.
 }
 \examples{
 converged.foobar <- function(x, ...) {
- NotYetImplemented()
- # replace with code to get converged for an object of class 'foobar'
+  NotYetImplemented()
+  # replace with code to get converged for an object of class 'foobar'
 }
 }
 \seealso{

@@ -19,7 +19,7 @@ Gets the number of scalar parameters of an object.
 }
 \examples{
 npars_scalar.foobar <- function(x, ...) {
- length(pars_scalar(x, ...))
+  length(pars_scalar(x, ...))
 }
 }
 \seealso{

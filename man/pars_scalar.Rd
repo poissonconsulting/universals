@@ -19,8 +19,8 @@ Gets the scalar parameter names.
 }
 \examples{
 pars_scalar.foobar <- function(x, ...) {
- NotYetImplemented()
- # replace with code to get pars_scalar for an object of class 'foobar'
+  NotYetImplemented()
+  # replace with code to get pars_scalar for an object of class 'foobar'
 }
 }
 \seealso{

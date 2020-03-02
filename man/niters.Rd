@@ -20,8 +20,8 @@ of an MCMC object.
 }
 \examples{
 niters.foobar <- function(x, ...) {
- NotYetImplemented()
- # replace with code to get niters for an object of class 'foobar'
+  NotYetImplemented()
+  # replace with code to get niters for an object of class 'foobar'
 }
 }
 \seealso{

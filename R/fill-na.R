@@ -9,7 +9,7 @@
 #' @export
 #' @examples
 #' fill_na.foobar <- function(x, ...) {
-#'  NotYetImplemented()
-#'  # replace with code to fill_na for an object of class 'foobar'
+#'   NotYetImplemented()
+#'   # replace with code to fill_na for an object of class 'foobar'
 #' }
 fill_na <- function(x, value, ...) UseMethod("fill_na")

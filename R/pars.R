@@ -8,8 +8,8 @@
 #' @export
 #' @examples
 #' pars.foobar <- function(x, ...) {
-#'  NotYetImplemented()
-#'  # replace with code to get pars for an object of class 'foobar'
+#'   NotYetImplemented()
+#'   # replace with code to get pars for an object of class 'foobar'
 #' }
 pars <- function(x, ...) {
   UseMethod("pars")

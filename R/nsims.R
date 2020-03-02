@@ -9,7 +9,7 @@
 #' @export
 #' @examples
 #' nsims.foobar <- function(x, ...) {
-#'  niters(x, ...) * nchains(x, ...)
+#'   niters(x, ...) * nchains(x, ...)
 #' }
 nsims <- function(x, ...) {
   UseMethod("nsims")

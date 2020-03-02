@@ -24,8 +24,8 @@ Sets an object's parameter names.
 }
 \examples{
 set_pars.foobar <- function(x, ...) {
- NotYetImplemented()
- # replace with code to set_pars for an object of class 'foobar'
+  NotYetImplemented()
+  # replace with code to set_pars for an object of class 'foobar'
 }
 }
 \seealso{

@@ -14,8 +14,8 @@
 #' @export
 #' @examples
 #' esr.foobar <- function(x, ...) {
-#'  NotYetImplemented()
-#'  # replace with code to get esr for an object of class 'foobar'
+#'   NotYetImplemented()
+#'   # replace with code to get esr for an object of class 'foobar'
 #' }
 esr <- function(x, ...) {
   UseMethod("esr")

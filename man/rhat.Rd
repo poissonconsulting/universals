@@ -20,8 +20,8 @@ split R-hat (potential scale reduction factor) value.
 }
 \examples{
 rhat.foobar <- function(x, ...) {
- NotYetImplemented()
- # replace with code to get rhat for an object of class 'foobar'
+  NotYetImplemented()
+  # replace with code to get rhat for an object of class 'foobar'
 }
 }
 \references{

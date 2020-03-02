@@ -8,8 +8,8 @@
 #' @export
 #' @examples
 #' pars_scalar.foobar <- function(x, ...) {
-#'  NotYetImplemented()
-#'  # replace with code to get pars_scalar for an object of class 'foobar'
+#'   NotYetImplemented()
+#'   # replace with code to get pars_scalar for an object of class 'foobar'
 #' }
 pars_scalar <- function(x, ...) {
   UseMethod("pars_scalar")

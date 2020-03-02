@@ -8,7 +8,7 @@
 #' @export
 #' @examples
 #' ndims.foobar <- function(x, ...) {
-#'  length(dims(x, ...))
+#'   length(dims(x, ...))
 #' }
 ndims <- function(x, ...) {
   UseMethod("ndims")

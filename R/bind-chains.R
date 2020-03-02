@@ -8,8 +8,8 @@
 #' @export
 #' @examples
 #' bind_chains.foobar <- function(x, x2, ...) {
-#'  NotYetImplemented()
-#'  # replace with code to bind_chains for an object of class 'foobar'
+#'   NotYetImplemented()
+#'   # replace with code to bind_chains for an object of class 'foobar'
 #' }
 bind_chains <- function(x, x2, ...) {
   UseMethod("bind_chains")

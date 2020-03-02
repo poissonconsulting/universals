@@ -10,6 +10,6 @@
 #' @export
 #' @examples
 #' npars_scalar.foobar <- function(x, ...) {
-#'  length(pars_scalar(x, ...))
+#'   length(pars_scalar(x, ...))
 #' }
 npars_scalar <- function(x, ...) UseMethod("npars_scalar")

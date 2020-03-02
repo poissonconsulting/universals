@@ -9,8 +9,8 @@
 #' @export
 #' @examples
 #' nchains.foobar <- function(x, ...) {
-#'  NotYetImplemented()
-#'  # replace with code to get nchains for an object of class 'foobar'
+#'   NotYetImplemented()
+#'   # replace with code to get nchains for an object of class 'foobar'
 #' }
 nchains <- function(x, ...) {
   UseMethod("nchains")

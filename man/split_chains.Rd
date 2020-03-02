@@ -21,8 +21,8 @@ and halve the number of iterations.
 }
 \examples{
 split_chains.foobar <- function(x, ...) {
- NotYetImplemented()
- # replace with code to split_chains for an object of class 'foobar'
+  NotYetImplemented()
+  # replace with code to split_chains for an object of class 'foobar'
 }
 }
 \seealso{

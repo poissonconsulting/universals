@@ -19,7 +19,7 @@ Gets the number of the dimensions of each parameter of an object.
 }
 \examples{
 npdims.foobar <- function(x, ...) {
- vapply(pdims(x, ...), length, 1L)
+  vapply(pdims(x, ...), length, 1L)
 }
 }
 \seealso{

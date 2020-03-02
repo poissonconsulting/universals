@@ -8,6 +8,6 @@
 #' @export
 #' @examples
 #' npdims.foobar <- function(x, ...) {
-#'  vapply(pdims(x, ...), length, 1L)
+#'   vapply(pdims(x, ...), length, 1L)
 #' }
 npdims <- function(x, ...) UseMethod("npdims")

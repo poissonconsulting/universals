@@ -19,8 +19,8 @@ Collapses an MCMC object's chains into a single chain.
 }
 \examples{
 collapse_chains.foobar <- function(x, ...) {
- NotYetImplemented()
- # replace with code to collapse_chains for an object of class 'foobar'
+  NotYetImplemented()
+  # replace with code to collapse_chains for an object of class 'foobar'
 }
 }
 \seealso{

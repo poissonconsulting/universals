@@ -21,8 +21,8 @@ Fills all of an object's (missing and non-missing) values while preserving the o
 }
 \examples{
 fill_all.foobar <- function(x, ...) {
- NotYetImplemented()
- # replace with code to fill_all for an object of class 'foobar'
+  NotYetImplemented()
+  # replace with code to fill_all for an object of class 'foobar'
 }
 }
 \seealso{

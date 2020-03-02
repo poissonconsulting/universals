@@ -20,7 +20,7 @@ of an MCMC object.
 }
 \examples{
 nsims.foobar <- function(x, ...) {
- niters(x, ...) * nchains(x, ...)
+  niters(x, ...) * nchains(x, ...)
 }
 }
 \seealso{

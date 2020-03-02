@@ -19,7 +19,7 @@ Gets the number of parameters of an object.
 }
 \examples{
 npars.foobar <- function(x, ...) {
- length(pars(x, ...))
+  length(pars(x, ...))
 }
 }
 \seealso{

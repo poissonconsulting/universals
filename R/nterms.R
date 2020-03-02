@@ -9,8 +9,8 @@
 #' @export
 #' @examples
 #' nterms.foobar <- function(x, ...) {
-#'  NotYetImplemented()
-#'  # replace with code to get nterms for an object of class 'foobar'
+#'   NotYetImplemented()
+#'   # replace with code to get nterms for an object of class 'foobar'
 #' }
 nterms <- function(x, ...) {
   UseMethod("nterms")

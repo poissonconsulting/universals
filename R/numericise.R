@@ -8,8 +8,8 @@
 #' @export
 #' @examples
 #' numericise.foobar <- function(x, ...) {
-#'  NotYetImplemented()
-#'  # replace with code to numericise an object of class 'foobar'
+#'   NotYetImplemented()
+#'   # replace with code to numericise an object of class 'foobar'
 #' }
 numericise <- function(x, ...) UseMethod("numericise")
 
@@ -22,7 +22,7 @@ numericise <- function(x, ...) UseMethod("numericise")
 #' @export
 #' @examples
 #' numericise.foobar <- function(x, ...) {
-#'  NotYetImplemented()
-#'  # replace with code to numericise an object of class 'foobar'
+#'   NotYetImplemented()
+#'   # replace with code to numericise an object of class 'foobar'
 #' }
 numericize <- function(x, ...) UseMethod("numericise")

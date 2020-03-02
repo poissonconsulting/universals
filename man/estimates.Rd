@@ -19,8 +19,8 @@ Calculates the estimates for an MCMC object.
 }
 \examples{
 estimates.foobar <- function(x, ...) {
- NotYetImplemented()
- # replace with code to get estimates for an object of class 'foobar'
+  NotYetImplemented()
+  # replace with code to get estimates for an object of class 'foobar'
 }
 }
 \seealso{

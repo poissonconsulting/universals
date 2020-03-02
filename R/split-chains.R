@@ -10,8 +10,8 @@
 #' @export
 #' @examples
 #' split_chains.foobar <- function(x, ...) {
-#'  NotYetImplemented()
-#'  # replace with code to split_chains for an object of class 'foobar'
+#'   NotYetImplemented()
+#'   # replace with code to split_chains for an object of class 'foobar'
 #' }
 split_chains <- function(x, ...) {
   UseMethod("split_chains")

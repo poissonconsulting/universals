@@ -19,8 +19,8 @@ Gets the parameter names.
 }
 \examples{
 pars.foobar <- function(x, ...) {
- NotYetImplemented()
- # replace with code to get pars for an object of class 'foobar'
+  NotYetImplemented()
+  # replace with code to get pars for an object of class 'foobar'
 }
 }
 \seealso{

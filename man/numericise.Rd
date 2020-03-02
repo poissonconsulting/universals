@@ -27,11 +27,11 @@ If you want to implement a method for a class \code{"foo"}, implement
 }
 \examples{
 numericise.foobar <- function(x, ...) {
- NotYetImplemented()
- # replace with code to numericise an object of class 'foobar'
+  NotYetImplemented()
+  # replace with code to numericise an object of class 'foobar'
 }
 numericise.foobar <- function(x, ...) {
- NotYetImplemented()
- # replace with code to numericise an object of class 'foobar'
+  NotYetImplemented()
+  # replace with code to numericise an object of class 'foobar'
 }
 }

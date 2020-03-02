@@ -19,7 +19,7 @@ Gets the number of dimensions of an object as returned by \code{dims()}.
 }
 \examples{
 ndims.foobar <- function(x, ...) {
- length(dims(x, ...))
+  length(dims(x, ...))
 }
 }
 \seealso{

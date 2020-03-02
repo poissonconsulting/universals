@@ -22,8 +22,8 @@ Unlike \code{base::dim()}, dims returns the length of an atomic vector.
 }
 \examples{
 dims.foobar <- function(x, ...) {
- NotYetImplemented()
- # replace with code to get dims for an object of class 'foobar'
+  NotYetImplemented()
+  # replace with code to get dims for an object of class 'foobar'
 }
 }
 \seealso{

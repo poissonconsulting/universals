@@ -8,7 +8,7 @@
 #' @export
 #' @examples
 #' pdims.foobar <- function(x, ...) {
-#'  NotYetImplemented()
-#'  # replace with code to get pdims for an object of class 'foobar'
+#'   NotYetImplemented()
+#'   # replace with code to get pdims for an object of class 'foobar'
 #' }
 pdims <- function(x, ...) UseMethod("pdims")

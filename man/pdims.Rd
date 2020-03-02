@@ -19,8 +19,8 @@ Gets the dimensions of each parameter of an object.
 }
 \examples{
 pdims.foobar <- function(x, ...) {
- NotYetImplemented()
- # replace with code to get pdims for an object of class 'foobar'
+  NotYetImplemented()
+  # replace with code to get pdims for an object of class 'foobar'
 }
 }
 \seealso{

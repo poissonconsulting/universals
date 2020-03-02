@@ -23,8 +23,8 @@ lag \eqn{k} when \eqn{\rho_{k+1}(\theta) < 0}.
 }
 \examples{
 esr.foobar <- function(x, ...) {
- NotYetImplemented()
- # replace with code to get esr for an object of class 'foobar'
+  NotYetImplemented()
+  # replace with code to get esr for an object of class 'foobar'
 }
 }
 \references{

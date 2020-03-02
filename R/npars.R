@@ -10,6 +10,6 @@
 #' @export
 #' @examples
 #' npars.foobar <- function(x, ...) {
-#'  length(pars(x, ...))
+#'   length(pars(x, ...))
 #' }
 npars <- function(x, ...) UseMethod("npars")

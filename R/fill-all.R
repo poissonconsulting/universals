@@ -9,7 +9,7 @@
 #' @export
 #' @examples
 #' fill_all.foobar <- function(x, ...) {
-#'  NotYetImplemented()
-#'  # replace with code to fill_all for an object of class 'foobar'
+#'   NotYetImplemented()
+#'   # replace with code to fill_all for an object of class 'foobar'
 #' }
 fill_all <- function(x, value, ...) UseMethod("fill_all")
