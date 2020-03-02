@@ -15,4 +15,4 @@ Maintainer: 'Joe Thorley <joe@poissonconsulting.ca>'
 
 New submission
 
-This is a new submission.
+This is a resubmission of a new submission.
