@@ -1,6 +1,8 @@
 test_that("npdims", {
   dims <- function(x, ...) {
-    if(is.atomic(x) && is.vector(x)) return(1L)
+    if (is.atomic(x) && is.vector(x)) {
+      return(1L)
+    }
     dim(x)
   }
 

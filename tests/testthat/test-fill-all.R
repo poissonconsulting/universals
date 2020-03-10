@@ -8,6 +8,8 @@ test_that("fill-all", {
     }
     x
   }
-  expect_identical(fill_all(c(TRUE, NA, FALSE, NA, TRUE)),
-                   rep(FALSE, 5))
+  expect_identical(
+    fill_all(c(TRUE, NA, FALSE, NA, TRUE)),
+    rep(FALSE, 5)
+  )
 })

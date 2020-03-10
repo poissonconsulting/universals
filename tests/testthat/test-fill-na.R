@@ -4,6 +4,8 @@ test_that("fill-na", {
     x[is.na(x)] <- value
     x
   }
-  expect_identical(fill_na(c(TRUE, NA, FALSE, NA, TRUE)),
-                   c(TRUE, FALSE, FALSE, FALSE, TRUE))
+  expect_identical(
+    fill_na(c(TRUE, NA, FALSE, NA, TRUE)),
+    c(TRUE, FALSE, FALSE, FALSE, TRUE)
+  )
 })
