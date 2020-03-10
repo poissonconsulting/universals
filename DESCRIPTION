@@ -17,3 +17,6 @@ LazyData: true
 RoxygenNote: 7.0.2
 Language: en-US
 Roxygen: list(markdown = TRUE)
+Suggests: 
+    testthat,
+    covr
