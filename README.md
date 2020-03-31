@@ -20,10 +20,8 @@ status](https://www.r-pkg.org/badges/version/universals)](https://cran.r-project
 <!-- ![CRAN downloads](https://cranlogs.r-pkg.org/badges/universals) -->
 <!-- badges: end -->
 
-`universals` provides common S3 generic methods for Bayesian Analyses
-that are missing from base R and the
-[`generics`](https://github.com/r-lib/generics) package to reduce
-package dependencies and conflicts.
+`universals` provides common S3 generic methods for Bayesian Analyses to
+reduce package dependencies and conflicts.
 
 ## Philosophy
 
@@ -35,8 +33,8 @@ The names of the functions are based on the following
 definitions/concepts:
 
   - A `term` is a single real or integer `value`.
-  - A `parameter` is a scalar, vector, matrix or array of terms, ie a
-    numeric atomic object.
+  - A `par` (short for parameter) is a scalar, vector, matrix or array
+    of terms, ie a numeric atomic object.
   - An MCMC sample refers to a set of terms.
   - The samples are arranged in one or more `chains` of the same length
     (number of `iterations`).
@@ -70,8 +68,7 @@ install.packages("universals")
 
 `universals` is designed to be used by package developers.
 
-As with [`generics`](https://github.com/r-lib/generics) it is
-recommended to import and re-export the generics of interest. For
+It is recommended to import and re-export the generics of interest. For
 example, to provide a method for the S3 `pars()` method, use the
 following `roxygen2` code:
 
@@ -85,9 +82,6 @@ universals::pars
 
 The `universals` package is heavily inspired by the
 [`generics`](https://github.com/r-lib/generics) package.
-
-It is possible that some of the methods migrate to that package in a
-future release.
 
 ## Contribution
 
