@@ -34,6 +34,8 @@ Brooks, S., Gelman, A., Jones, G.L., and Meng, X.-L. (Editors). 2011. Handbook f
 }
 \seealso{
 Other convergence: 
+\code{\link{converged_pars}()},
+\code{\link{converged_terms}()},
 \code{\link{converged}()},
 \code{\link{esr_pars}()},
 \code{\link{esr}()},

@@ -3,6 +3,8 @@
 export(bind_chains)
 export(collapse_chains)
 export(converged)
+export(converged_pars)
+export(converged_terms)
 export(dims)
 export(esr)
 export(esr_pars)
