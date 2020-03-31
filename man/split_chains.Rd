@@ -29,7 +29,6 @@ split_chains.foobar <- function(x, ...) {
 Other MCMC manipulations: 
 \code{\link{bind_chains}()},
 \code{\link{collapse_chains}()},
-\code{\link{estimates}()},
-\code{\link{fill_na}()}
+\code{\link{estimates}()}
 }
 \concept{MCMC manipulations}

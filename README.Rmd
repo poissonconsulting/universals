@@ -73,12 +73,9 @@ It is recommended to import and re-export the generics of interest. For example,
 universals::pars
 ```
 
-
 ## Inspiration
 
 The `universals` package is heavily inspired by the [`generics`](https://github.com/r-lib/generics) package.
-
-It is possible that some of the methods migrate to that package in a future release.
 
 ## Contribution
 
