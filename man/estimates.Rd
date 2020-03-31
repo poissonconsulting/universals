@@ -27,7 +27,6 @@ estimates.foobar <- function(x, ...) {
 Other MCMC manipulations: 
 \code{\link{bind_chains}()},
 \code{\link{collapse_chains}()},
-\code{\link{fill_all}()},
 \code{\link{fill_na}()},
 \code{\link{split_chains}()}
 }
