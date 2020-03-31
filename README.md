@@ -80,7 +80,7 @@ universals::pars
 
 ## Inspiration
 
-The `universals` package is heavily inspired by the
+The `universals` package was inspired by the
 [`generics`](https://github.com/r-lib/generics) package.
 
 ## Contribution
