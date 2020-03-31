@@ -1,7 +1,9 @@
 #' R-hat
 #'
-#' Calculates the uncorrected, unfolded, univariate,
-#' split R-hat (potential scale reduction factor) value.
+#' Calculates an R-hat (potential scale reduction factor) value.
+#'
+#' By default the uncorrected, unfolded, univariate,
+#' split R-hat value.
 #'
 #' @inheritParams params
 #' @return A number >= 1 indicating the rhat value.

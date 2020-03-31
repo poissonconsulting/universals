@@ -26,6 +26,8 @@ converged.foobar <- function(x, ...) {
 \seealso{
 Other convergence: 
 \code{\link{esr}()},
+\code{\link{rhat_pars}()},
+\code{\link{rhat_terms}()},
 \code{\link{rhat}()}
 }
 \concept{convergence}

@@ -33,6 +33,8 @@ Brooks, S., Gelman, A., Jones, G.L., and Meng, X.-L. (Editors). 2011. Handbook f
 \seealso{
 Other convergence: 
 \code{\link{converged}()},
+\code{\link{rhat_pars}()},
+\code{\link{rhat_terms}()},
 \code{\link{rhat}()}
 }
 \concept{convergence}
