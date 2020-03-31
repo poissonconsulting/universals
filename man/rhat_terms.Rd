@@ -12,7 +12,7 @@ rhat_terms(x, ...)
 \item{...}{Other arguments passed to methods.}
 }
 \value{
-An list of uniquely named numeric atomic objects with values >= 1 indicating the rhat value for each term.
+A list of uniquely named numeric atomic objects with values >= 1 indicating the rhat value for each term.
 }
 \description{
 Calculates an R-hat (potential scale reduction factor) value for each term.
@@ -33,6 +33,8 @@ Gelman, A., and Rubin, D.B. 1992. Inference from Iterative Simulation Using Mult
 \seealso{
 Other convergence: 
 \code{\link{converged}()},
+\code{\link{esr_pars}()},
+\code{\link{esr_terms}()},
 \code{\link{esr}()},
 \code{\link{rhat_pars}()},
 \code{\link{rhat}()}

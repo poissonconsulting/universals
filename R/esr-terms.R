@@ -1,6 +1,6 @@
-#' Effective Sampling Rate
+#' Effective Sampling Rate for Terms
 #'
-#' Calculates the effective sampling rate (`esr`).
+#' Calculates the effective sampling rate (`esr`) for each term.
 #'
 #' By default
 #' \deqn{\frac{1}{1 + 2 \sum_{k = 1}^\infty\rho_k(\theta)}}
@@ -10,14 +10,14 @@
 #' @references
 #' Brooks, S., Gelman, A., Jones, G.L., and Meng, X.-L. (Editors). 2011. Handbook for Markov Chain Monte Carlo. Taylor & Francis, Boca Raton.
 #' @inheritParams params
-#' @return A number between 0 and 1 indicating the esr value.
+#' @return A list of uniquely named numeric atomic objects with values between 0 and 1 indicating the effectively sampling rate for each term.
 #' @family convergence
 #' @export
 #' @examples
-#' esr.foobar <- function(x, ...) {
+#' esr_terms.foobar <- function(x, ...) {
 #'   NotYetImplemented()
-#'   # replace with code to get esr for an object of class 'foobar'
+#'   # replace with code to get esr for each term of an object of class 'foobar'
 #' }
-esr <- function(x, ...) {
-  UseMethod("esr")
+esr_terms <- function(x, ...) {
+  UseMethod("esr_terms")
 }

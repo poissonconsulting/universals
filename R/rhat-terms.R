@@ -6,7 +6,7 @@
 #' split R-hat value.
 #'
 #' @inheritParams params
-#' @return An list of uniquely named numeric atomic objects with values >= 1 indicating the rhat value for each term.
+#' @return A list of uniquely named numeric atomic objects with values >= 1 indicating the rhat value for each term.
 #' @references
 #' Gelman, A., and Rubin, D.B. 1992. Inference from Iterative Simulation Using Multiple Sequences. Statistical Science 7(4): 457–472.
 #' @family convergence
