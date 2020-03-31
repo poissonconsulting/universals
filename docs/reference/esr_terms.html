@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Number of Parameter Dimensions — npdims • universals</title>
+<title>Effective Sampling Rate for Terms — esr_terms • universals</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -46,8 +46,8 @@
 
 
 
-<meta property="og:title" content="Number of Parameter Dimensions — npdims" />
-<meta property="og:description" content="Gets the number of the dimensions of each parameter of an object." />
+<meta property="og:title" content="Effective Sampling Rate for Terms — esr_terms" />
+<meta property="og:description" content="Calculates the effective sampling rate (esr) for each term." />
 
 
 
@@ -118,16 +118,16 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Number of Parameter Dimensions</h1>
-    <small class="dont-index">Source: <a href='https://github.com/poissonconsulting/universals/blob/master/R/npdims.R'><code>R/npdims.R</code></a></small>
-    <div class="hidden name"><code>npdims.Rd</code></div>
+    <h1>Effective Sampling Rate for Terms</h1>
+    <small class="dont-index">Source: <a href='https://github.com/poissonconsulting/universals/blob/master/R/esr-terms.R'><code>R/esr-terms.R</code></a></small>
+    <div class="hidden name"><code>esr_terms.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Gets the number of the dimensions of each parameter of an object.</p>
+    <p>Calculates the effective sampling rate (<code>esr</code>) for each term.</p>
     </div>
 
-    <pre class="usage"><span class='fu'>npdims</span>(<span class='no'>x</span>, <span class='no'>...</span>)</pre>
+    <pre class="usage"><span class='fu'>esr_terms</span>(<span class='no'>x</span>, <span class='no'>...</span>)</pre>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
@@ -144,17 +144,32 @@
 
     <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
-    <p>A named integer vector of the number of dimensions of each parameter.</p>
+    <p>A list of uniquely named numeric atomic objects with values between 0 and 1 indicating the effectively sampling rate for each term.</p>
+    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
+
+    <p>By default
+$$\frac{1}{1 + 2 \sum_{k = 1}^\infty\rho_k(\theta)}$$
+from Brooks et al. (2011) where the infinite sum is truncated at
+lag \(k\) when \(\rho_{k+1}(\theta) &lt; 0\).</p>
+    <h2 class="hasAnchor" id="references"><a class="anchor" href="#references"></a>References</h2>
+
+    <p>Brooks, S., Gelman, A., Jones, G.L., and Meng, X.-L. (Editors). 2011. Handbook for Markov Chain Monte Carlo. Taylor &amp; Francis, Boca Raton.</p>
     <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
-    <div class='dont-index'><p>Other dimensions: 
-<code><a href='dims.html'>dims</a>()</code>,
-<code><a href='ndims.html'>ndims</a>()</code>,
-<code><a href='pdims.html'>pdims</a>()</code></p></div>
+    <div class='dont-index'><p>Other convergence: 
+<code><a href='converged_pars.html'>converged_pars</a>()</code>,
+<code><a href='converged_terms.html'>converged_terms</a>()</code>,
+<code><a href='converged.html'>converged</a>()</code>,
+<code><a href='esr_pars.html'>esr_pars</a>()</code>,
+<code><a href='esr.html'>esr</a>()</code>,
+<code><a href='rhat_pars.html'>rhat_pars</a>()</code>,
+<code><a href='rhat_terms.html'>rhat_terms</a>()</code>,
+<code><a href='rhat.html'>rhat</a>()</code></p></div>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='no'>npdims.foobar</span> <span class='kw'>&lt;-</span> <span class='kw'>function</span>(<span class='no'>x</span>, <span class='no'>...</span>) {
-  <span class='fu'><a href='https://rdrr.io/r/base/lapply.html'>vapply</a></span>(<span class='fu'><a href='pdims.html'>pdims</a></span>(<span class='no'>x</span>, <span class='no'>...</span>), <span class='no'>length</span>, <span class='fl'>1L</span>)
+    <pre class="examples"><div class='input'><span class='no'>esr_terms.foobar</span> <span class='kw'>&lt;-</span> <span class='kw'>function</span>(<span class='no'>x</span>, <span class='no'>...</span>) {
+  <span class='fu'><a href='https://rdrr.io/r/base/notyet.html'>NotYetImplemented</a></span>()
+  <span class='co'># replace with code to get esr for each term of an object of class 'foobar'</span>
 }</div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
