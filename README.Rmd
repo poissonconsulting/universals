@@ -17,8 +17,7 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
-[![Travis build status](https://travis-ci.com/poissonconsulting/universals.svg?branch=master)](https://travis-ci.com/poissonconsulting/universals)
-[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/poissonconsulting/universals?branch=master&svg=true)](https://ci.appveyor.com/project/poissonconsulting/universals)
+[![R build status](https://github.com/poissonconsulting/universals/workflows/R-CMD-check/badge.svg)](https://github.com/poissonconsulting/universals/actions)
 [![Codecov test coverage](https://codecov.io/gh/poissonconsulting/universals/branch/master/graph/badge.svg)](https://codecov.io/gh/poissonconsulting/universals?branch=master)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![CRAN status](https://www.r-pkg.org/badges/version/universals)](https://cran.r-project.org/package=universals)
@@ -52,13 +51,6 @@ To install the developmental version from [GitHub](https://github.com/poissoncon
 ```{r, eval=FALSE}
 # install.packages("remotes")
 remotes::install_github("poissonconsulting/universals")
-```
-
-To install the latest developmental release from the Poisson drat [repository](https://github.com/poissonconsulting/drat)
-```{r, eval=FALSE}
-# install.packages("drat")
-drat::addRepo("poissonconsulting")
-install.packages("universals")
 ```
 
 ## Usage

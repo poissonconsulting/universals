@@ -7,10 +7,8 @@
 
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
-[![Travis build
-status](https://travis-ci.com/poissonconsulting/universals.svg?branch=master)](https://travis-ci.com/poissonconsulting/universals)
-[![AppVeyor build
-status](https://ci.appveyor.com/api/projects/status/github/poissonconsulting/universals?branch=master&svg=true)](https://ci.appveyor.com/project/poissonconsulting/universals)
+[![R build
+status](https://github.com/poissonconsulting/universals/workflows/R-CMD-check/badge.svg)](https://github.com/poissonconsulting/universals/actions)
 [![Codecov test
 coverage](https://codecov.io/gh/poissonconsulting/universals/branch/master/graph/badge.svg)](https://codecov.io/gh/poissonconsulting/universals?branch=master)
 [![License:
@@ -41,7 +39,8 @@ definitions/concepts:
   - The number of `simulations` is the product of the number of
     iterations and the number of chains.
   - The number of `samples` is the product of the number of simulations
-    and the number of `terms`.
+    and the number of
+`terms`.
 
 ## Installation
 
@@ -53,15 +52,6 @@ To install the developmental version from
 ``` r
 # install.packages("remotes")
 remotes::install_github("poissonconsulting/universals")
-```
-
-To install the latest developmental release from the Poisson drat
-[repository](https://github.com/poissonconsulting/drat)
-
-``` r
-# install.packages("drat")
-drat::addRepo("poissonconsulting")
-install.packages("universals")
 ```
 
 ## Usage
