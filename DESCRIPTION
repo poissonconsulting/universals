@@ -9,7 +9,7 @@ Description: Provides common S3 generic methods for Bayesian Analyses
     that are missing from base R and the generics package 
     to reduce package dependencies and conflicts.
 License: MIT + file LICENSE
-Depends: R (>= 3.2)
+Depends: R (>= 3.3)
 URL: https://github.com/poissonconsulting/universals
 BugReports: https://github.com/poissonconsulting/universals/issues
 Encoding: UTF-8

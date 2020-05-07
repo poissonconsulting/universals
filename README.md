@@ -81,6 +81,9 @@ Please report any
 [Pull requests](https://github.com/poissonconsulting/universals/pulls)
 are always welcome.
 
-Please note that this project is released with a [Contributor Code of
-Conduct](https://github.com/poissonconsulting/universals/blob/master/CODE_OF_CONDUCT.md).
-By contributing, you agree to abide by its terms.
+## Code of Conduct
+
+Please note that the universals project is released with a [Contributor
+Code of
+Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.
