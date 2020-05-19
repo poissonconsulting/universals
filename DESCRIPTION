@@ -1,23 +1,29 @@
 Package: universals
 Title: Common S3 Generics for Bayesian Analyses
 Version: 0.0.1
-Authors@R: c(
-    person("Joe", "Thorley", , "joe@poissonconsulting.ca", c("aut", "cre"), comment = c(ORCID = "0000-0002-7683-4592")),
-    person("Poisson Consulting", role = c("cph", "fnd"))
-    )
-Description: Provides common S3 generic methods for Bayesian Analyses
-    that are missing from base R and the generics package 
-    to reduce package dependencies and conflicts. The 'nlist' package implements
-    many methods for its 'nlist' class.
+Authors@R: 
+    c(person(given = "Joe",
+             family = "Thorley",
+             role = c("aut", "cre"),
+             email = "joe@poissonconsulting.ca",
+             comment = c(ORCID = "0000-0002-7683-4592")),
+      person(given = "Poisson Consulting",
+             role = c("cph", "fnd")))
+Description: Provides common S3 generic methods for Bayesian
+    Analyses that are missing from base R and the generics package to
+    reduce package dependencies and conflicts. The 'nlist' package
+    implements many methods for its 'nlist' class.
 License: MIT + file LICENSE
-Depends: R (>= 3.3)
 URL: https://github.com/poissonconsulting/universals
-BugReports: https://github.com/poissonconsulting/universals/issues
-Encoding: UTF-8
-LazyData: true
-RoxygenNote: 7.1.0
-Language: en-US
-Roxygen: list(markdown = TRUE)
+BugReports: 
+    https://github.com/poissonconsulting/universals/issues
+Depends: 
+    R (>= 3.3)
 Suggests: 
-    testthat,
-    covr
+    covr,
+    testthat
+Encoding: UTF-8
+Language: en-US
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
