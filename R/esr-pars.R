@@ -8,15 +8,18 @@
 #' lag \eqn{k} when \eqn{\rho_{k+1}(\theta) < 0}.
 #'
 #' @references
-#' Brooks, S., Gelman, A., Jones, G.L., and Meng, X.-L. (Editors). 2011. Handbook for Markov Chain Monte Carlo. Taylor & Francis, Boca Raton.
+#' Brooks, S., Gelman, A., Jones, G.L., and Meng, X.-L. (Editors). 2011.
+#' Handbook for Markov Chain Monte Carlo. Taylor & Francis, Boca Raton.
 #' @inheritParams params
-#' @return A uniquely named numeric atomic vector of values between 0 and 1 indicating the esr value for each parameter.
+#' @return A uniquely named numeric atomic vector of values between 0 and 1
+#' indicating the esr value for each parameter.
 #' @family convergence
 #' @export
 #' @examples
 #' esr_pars.foobar <- function(x, ...) {
 #'   NotYetImplemented()
-#'   # replace with code to get esr for each parameter of an object of class 'foobar'
+#'   # replace with code to get esr for each parameter of an object of
+#'   class 'foobar'
 #' }
 esr_pars <- function(x, ...) {
   UseMethod("esr_pars")

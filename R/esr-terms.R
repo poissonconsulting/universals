@@ -8,9 +8,11 @@
 #' lag \eqn{k} when \eqn{\rho_{k+1}(\theta) < 0}.
 #'
 #' @references
-#' Brooks, S., Gelman, A., Jones, G.L., and Meng, X.-L. (Editors). 2011. Handbook for Markov Chain Monte Carlo. Taylor & Francis, Boca Raton.
+#' Brooks, S., Gelman, A., Jones, G.L., and Meng, X.-L. (Editors). 2011.
+#' Handbook for Markov Chain Monte Carlo. Taylor & Francis, Boca Raton.
 #' @inheritParams params
-#' @return A list of uniquely named numeric atomic objects with values between 0 and 1 indicating the effectively sampling rate for each term.
+#' @return A list of uniquely named numeric atomic objects with values between
+#' 0 and 1 indicating the effectively sampling rate for each term.
 #' @family convergence
 #' @export
 #' @examples

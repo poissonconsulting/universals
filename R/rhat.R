@@ -8,7 +8,9 @@
 #' @inheritParams params
 #' @return A number >= 1 indicating the rhat value.
 #' @references
-#' Gelman, A., and Rubin, D.B. 1992. Inference from Iterative Simulation Using Multiple Sequences. Statistical Science 7(4): 457–472.
+#' Gelman, A., and Rubin, D.B. 1992.
+#' Inference from Iterative Simulation Using Multiple Sequences.
+#' Statistical Science 7(4): 457–472.
 #' @family convergence
 #' @export
 #' @examples
