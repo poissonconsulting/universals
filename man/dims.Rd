@@ -2,9 +2,15 @@
 % Please edit documentation in R/dims.R
 \name{dims}
 \alias{dims}
+\alias{dims.default}
+\alias{dims.factor}
 \title{Dimensions}
 \usage{
 dims(x, ...)
+
+\method{dims}{default}(x, ...)
+
+\method{dims}{factor}(x, ...)
 }
 \arguments{
 \item{x}{An object.}
@@ -21,10 +27,11 @@ Gets the dimensions of an object.
 Unlike \code{base::dim()}, dims returns the length of an atomic vector.
 }
 \examples{
-dims.foobar <- function(x, ...) {
-  NotYetImplemented()
-  # replace with code to get dims for an object of class 'foobar'
-}
+dims(character(0))
+dims(1:3)
+dims(iris)
+dims(Titanic)
+dims(factor("a"))
 }
 \seealso{
 \code{\link[base:dim]{base::dim()}}

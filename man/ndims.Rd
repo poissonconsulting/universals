@@ -2,9 +2,18 @@
 % Please edit documentation in R/ndims.R
 \name{ndims}
 \alias{ndims}
+\alias{ndims.default}
+\alias{ndims.matrix}
+\alias{ndims.data.frame}
 \title{Number of Dimensions}
 \usage{
 ndims(x, ...)
+
+\method{ndims}{default}(x, ...)
+
+\method{ndims}{matrix}(x, ...)
+
+\method{ndims}{data.frame}(x, ...)
 }
 \arguments{
 \item{x}{An object.}
@@ -16,11 +25,19 @@ A integer scalar of the number of dimensions.
 }
 \description{
 Gets the number of dimensions of an object as returned by \code{dims()}.
+
+The default methods returns the length of \code{\link[=dims]{dims()}}.
+}
+\details{
+For matrices and data frames, \code{ndims()} is always 2L.
 }
 \examples{
-ndims.foobar <- function(x, ...) {
-  length(dims(x, ...))
-}
+ndims(character(0))
+ndims(1:3)
+
+ndims(matrix(1))
+
+ndims(data.frame())
 }
 \seealso{
 Other dimensions: 

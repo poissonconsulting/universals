@@ -11,3 +11,12 @@
 #'   vapply(pdims(x, ...), length, 1L)
 #' }
 npdims <- function(x, ...) UseMethod("npdims")
+
+#' @description
+#' The default methods returns the length of each element of [pdims()]
+#' as an integer vector.
+#' @rdname npdims
+#' @export
+npdims.default <- function(x, ...) {
+  vapply(pdims(x, ...), length, 1L)
+}

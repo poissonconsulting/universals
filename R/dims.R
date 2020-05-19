@@ -9,11 +9,25 @@
 #' @seealso [base::dim()]
 #' @family dimensions
 #' @export
-#' @examples
-#' dims.foobar <- function(x, ...) {
-#'   NotYetImplemented()
-#'   # replace with code to get dims for an object of class 'foobar'
-#' }
 dims <- function(x, ...) {
   UseMethod("dims")
+}
+
+#' @rdname dims
+#' @export
+#' @examples
+#' dims(character(0))
+#' dims(1:3)
+#' dims(iris)
+#' dims(Titanic)
+dims.default <- function(x, ...) {
+  if (is.vector(x)) length(x) else dim(x)
+}
+
+#' @rdname dims
+#' @export
+#' @examples
+#' dims(factor("a"))
+dims.factor <- function(x, ...) {
+  length(x)
 }

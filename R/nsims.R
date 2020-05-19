@@ -14,3 +14,11 @@
 nsims <- function(x, ...) {
   UseMethod("nsims")
 }
+
+#' @description
+#' The default methods returns the product of [nchains()] and [niters()].
+#' @rdname nsims
+#' @export
+nsims.default <- function(x, ...) {
+  nchains(x, ...) * niters(x, ...)
+}

@@ -17,3 +17,10 @@
 set_pars <- function(x, value, ...) {
   UseMethod("set_pars")
 }
+
+#' @description The assignment version `pars<-()` forwards to `set_pars()`.
+#' @rdname set_pars
+#' @export
+`pars<-` <- function(x, value) {
+  set_pars(x, value)
+}

@@ -2,9 +2,12 @@
 % Please edit documentation in R/npars.R
 \name{npars}
 \alias{npars}
+\alias{npars.default}
 \title{Number of Parameters}
 \usage{
 npars(x, ...)
+
+\method{npars}{default}(x, ...)
 }
 \arguments{
 \item{x}{An object.}
@@ -16,6 +19,9 @@ An integer scalar of the number of parameters.
 }
 \description{
 Gets the number of parameters of an object.
+
+The default methods returns the length of \code{\link[=pars]{pars()}} if none are
+\code{NA}, otherwise it returns \code{NA}.
 }
 \examples{
 npars.foobar <- function(x, ...) {

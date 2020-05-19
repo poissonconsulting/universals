@@ -1,1 +1,34 @@
 destination: docs
+
+reference:
+- title: Simulation results
+  contents:
+  - estimates
+  - bind_chains
+  - collapse_chains
+  - split_chains
+- title: Convergence
+  contents:
+  - converged
+  - converged_pars
+  - converged_terms
+  - esr
+  - esr_pars
+  - esr_terms
+  - rhat
+  - rhat_pars
+  - rhat_terms
+- title: Dimensionality
+  contents:
+  - nchains
+  - dims
+  - ndims
+  - niters
+  - pars
+  - npars
+  - set_pars
+  - pdims
+  - npdims
+  - nsams
+  - nsims
+  - nterms

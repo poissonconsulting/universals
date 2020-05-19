@@ -12,3 +12,11 @@
 #'   nsims(x, ...) * nterms(x, ...)
 #' }
 nsams <- function(x, ...) UseMethod("nsams")
+
+#' @description
+#' The default methods returns the product of [nsims()] and [nterms()].
+#' @rdname nsams
+#' @export
+nsams.default <- function(x, ...) {
+  nsims(x, ...) * nterms(x, ...)
+}

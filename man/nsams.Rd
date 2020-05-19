@@ -2,9 +2,12 @@
 % Please edit documentation in R/nsams.R
 \name{nsams}
 \alias{nsams}
+\alias{nsams.default}
 \title{Number of Samples}
 \usage{
 nsams(x, ...)
+
+\method{nsams}{default}(x, ...)
 }
 \arguments{
 \item{x}{An object.}
@@ -17,6 +20,8 @@ An integer scalar of the number of samples.
 \description{
 Gets the number of sample values (simulations * terms)
 of an MCMC object.
+
+The default methods returns the product of \code{\link[=nsims]{nsims()}} and \code{\link[=nterms]{nterms()}}.
 }
 \examples{
 nsams.foobar <- function(x, ...) {
