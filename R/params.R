@@ -5,4 +5,5 @@
 #' @param ... Other arguments passed to methods.
 #'
 #' @name params
+#' @keywords internal
 NULL
