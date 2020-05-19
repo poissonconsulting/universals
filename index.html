@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Common S3 Generics for Bayesian Analyses • universals</title>
+<title>S3 Generics for Bayesian Analyses • universals</title>
 <!-- favicons --><link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="apple-touch-icon.png">
@@ -17,11 +17,11 @@
 <script src="bootstrap-toc.js"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
 <!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="pkgdown.css" rel="stylesheet">
-<script src="pkgdown.js"></script><meta property="og:title" content="Common S3 Generics for Bayesian Analyses">
-<meta property="og:description" content="Provides common S3 generic methods for Bayesian
-    Analyses that are missing from base R and the generics package to
-    reduce package dependencies and conflicts. The nlist package
-    implements many methods for its nlist class.">
+<script src="pkgdown.js"></script><meta property="og:title" content="S3 Generics for Bayesian Analyses">
+<meta property="og:description" content="Provides S3 generic methods and some default implementations
+    for Bayesian analyses that generate Markov Chain Monte Carlo (MCMC) samples.
+    The purpose of universals is to reduce package dependencies and conflicts. 
+    The nlist package implements all the methods for its nlists class.">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -83,16 +83,17 @@
 <a href="#universals" class="anchor"></a>universals</h1></div>
 <!-- badges: start -->
 
-<p><code>universals</code> provides common S3 generic methods for Bayesian Analyses to reduce package dependencies and conflicts.</p>
+<p><code>universals</code> provides S3 generic methods and some default implementations for Bayesian analyses that generate Markov Chain Monte Carlo (MCMC) samples.</p>
+<p>The purpose of ‘universals’ is to reduce package dependencies and conflicts. The ‘nlist’ package implements all the methods for its ‘nlists’ class.</p>
 <div id="philosophy" class="section level2">
 <h2 class="hasAnchor">
 <a href="#philosophy" class="anchor"></a>Philosophy</h2>
-<p>The methods are primarily designed to be used for Bayesian analyses that generate Markov Chain Monte Carlo (MCMC) samples but many of them can also be used for Maximum Likelihood (ML) and other types of analyses.</p>
+<p>The methods are primarily designed to be used for Bayesian analyses that generate Markov Chain Monte Carlo (MCMC) samples but many can also be used for Maximum Likelihood (ML) and other types of analyses.</p>
 <p>The names of the functions are based on the following definitions/concepts:</p>
 <ul>
 <li>A <code>term</code> is a single real or integer <code>value</code>.</li>
 <li>A <code>par</code> (short for parameter) is a scalar, vector, matrix or array of terms, ie a numeric atomic object.</li>
-<li>An MCMC sample refers to a set of terms.</li>
+<li>An MCMC object is a collection of MCMC samples that refer to a set of terms.</li>
 <li>The samples are arranged in one or more <code>chains</code> of the same length (number of <code>iterations</code>).</li>
 <li>The number of <code>simulations</code> is the product of the number of iterations and the number of chains.</li>
 <li>The number of <code>samples</code> is the product of the number of simulations and the number of <code>terms</code>.</li>
@@ -114,11 +115,6 @@
 <div class="sourceCode" id="cb2"><pre class="r"><span class="co">#' @importFrom universals pars</span>
 <span class="co">#' @export</span>
 <span class="kw pkg">universals</span><span class="kw ns">::</span><span class="no"><a href="reference/pars.html">pars</a></span></pre></div>
-</div>
-<div id="inspiration" class="section level2">
-<h2 class="hasAnchor">
-<a href="#inspiration" class="anchor"></a>Inspiration</h2>
-<p>The <code>universals</code> package was inspired by the <a href="https://github.com/r-lib/generics"><code>generics</code></a> package.</p>
 </div>
 <div id="contribution" class="section level2">
 <h2 class="hasAnchor">
@@ -155,6 +151,7 @@
 <div class="community">
 <h2>Community</h2>
 <ul class="list-unstyled">
+<li><a href="CONTRIBUTING.html">Contributing guide</a></li>
 <li><a href="CODE_OF_CONDUCT.html">Code of conduct</a></li>
 </ul>
 </div>
