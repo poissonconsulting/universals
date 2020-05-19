@@ -12,10 +12,12 @@ rhat_pars(x, ...)
 \item{...}{Other arguments passed to methods.}
 }
 \value{
-An uniquely named numeric atomic vector values >= 1 indicating the rhat value for each parameter.
+An uniquely named numeric atomic vector values >= 1 indicating
+the rhat value for each parameter.
 }
 \description{
-Calculates an R-hat (potential scale reduction factor) value for each parameter.
+Calculates an R-hat (potential scale reduction factor) value for
+each parameter.
 }
 \details{
 By default the uncorrected, unfolded, univariate,
@@ -24,11 +26,14 @@ split R-hat value.
 \examples{
 rhat_pars.foobar <- function(x, ...) {
   NotYetImplemented()
-  # replace with code to get rhat for each parameter of an object of class 'foobar'
+  # replace with code to get rhat for each parameter of an object of
+  # class 'foobar'
 }
 }
 \references{
-Gelman, A., and Rubin, D.B. 1992. Inference from Iterative Simulation Using Multiple Sequences. Statistical Science 7(4): 457–472.
+Gelman, A., and Rubin, D.B. 1992.
+Inference from Iterative Simulation Using Multiple Sequences.
+Statistical Science 7(4): 457–472.
 }
 \seealso{
 Other convergence: 

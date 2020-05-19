@@ -12,7 +12,8 @@ esr_terms(x, ...)
 \item{...}{Other arguments passed to methods.}
 }
 \value{
-A list of uniquely named numeric atomic objects with values between 0 and 1 indicating the effectively sampling rate for each term.
+A list of uniquely named numeric atomic objects with values between
+0 and 1 indicating the effectively sampling rate for each term.
 }
 \description{
 Calculates the effective sampling rate (\code{esr}) for each term.
@@ -30,7 +31,8 @@ esr_terms.foobar <- function(x, ...) {
 }
 }
 \references{
-Brooks, S., Gelman, A., Jones, G.L., and Meng, X.-L. (Editors). 2011. Handbook for Markov Chain Monte Carlo. Taylor & Francis, Boca Raton.
+Brooks, S., Gelman, A., Jones, G.L., and Meng, X.-L. (Editors). 2011.
+Handbook for Markov Chain Monte Carlo. Taylor & Francis, Boca Raton.
 }
 \seealso{
 Other convergence: 

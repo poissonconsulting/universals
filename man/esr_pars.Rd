@@ -12,7 +12,8 @@ esr_pars(x, ...)
 \item{...}{Other arguments passed to methods.}
 }
 \value{
-A uniquely named numeric atomic vector of values between 0 and 1 indicating the esr value for each parameter.
+A uniquely named numeric atomic vector of values between 0 and 1
+indicating the esr value for each parameter.
 }
 \description{
 Calculates the effective sampling rate (\code{esr}) for each parameter.
@@ -26,11 +27,13 @@ lag \eqn{k} when \eqn{\rho_{k+1}(\theta) < 0}.
 \examples{
 esr_pars.foobar <- function(x, ...) {
   NotYetImplemented()
-  # replace with code to get esr for each parameter of an object of class 'foobar'
+  # replace with code to get esr for each parameter of an object of
+  # class 'foobar'
 }
 }
 \references{
-Brooks, S., Gelman, A., Jones, G.L., and Meng, X.-L. (Editors). 2011. Handbook for Markov Chain Monte Carlo. Taylor & Francis, Boca Raton.
+Brooks, S., Gelman, A., Jones, G.L., and Meng, X.-L. (Editors). 2011.
+Handbook for Markov Chain Monte Carlo. Taylor & Francis, Boca Raton.
 }
 \seealso{
 Other convergence: 

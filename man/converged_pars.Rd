@@ -12,7 +12,8 @@ converged_pars(x, ...)
 \item{...}{Other arguments passed to methods.}
 }
 \value{
-A uniquely named logical atomic vector indicating whether each parameter has converged.
+A uniquely named logical atomic vector indicating whether
+each parameter has converged.
 }
 \description{
 Tests whether each parameter of an object has converged.
@@ -20,7 +21,8 @@ Tests whether each parameter of an object has converged.
 \examples{
 converged_pars.foobar <- function(x, ...) {
   NotYetImplemented()
-  # replace with code to get converged for a each term of an object of class 'foobar'
+  # replace with code to get converged for a each term of an object of
+  # class 'foobar'
 }
 }
 \seealso{

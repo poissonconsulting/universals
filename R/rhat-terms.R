@@ -18,7 +18,7 @@
 #' rhat_terms.foobar <- function(x, ...) {
 #'   NotYetImplemented()
 #'   # replace with code to get rhat for each term of an object of
-#'   class 'foobar'
+#'   # class 'foobar'
 #' }
 rhat_terms <- function(x, ...) {
   UseMethod("rhat_terms")

@@ -19,7 +19,7 @@
 #' rhat_pars.foobar <- function(x, ...) {
 #'   NotYetImplemented()
 #'   # replace with code to get rhat for each parameter of an object of
-#'   class 'foobar'
+#'   # class 'foobar'
 #' }
 rhat_pars <- function(x, ...) {
   UseMethod("rhat_pars")
