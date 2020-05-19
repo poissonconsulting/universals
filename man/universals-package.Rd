@@ -4,11 +4,12 @@
 \name{universals-package}
 \alias{universals}
 \alias{universals-package}
-\title{universals: Common S3 Generics for Bayesian Analyses}
+\title{universals: S3 Generics for Bayesian Analyses}
 \description{
-Provides common S3 generic methods for Bayesian
-    Analyses to reduce package dependencies and conflicts. 
-    The 'nlist' package implements many methods for its 'nlists' class.
+Provides S3 generic methods and some default implementations
+    for Bayesian analyses that generate Markov Chain Monte Carlo (MCMC) samples.
+    The purpose of 'universals' is to reduce package dependencies and conflicts. 
+    The 'nlist' package implements all the methods for its 'nlists' class.
 }
 \seealso{
 Useful links:

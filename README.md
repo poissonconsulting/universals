@@ -18,14 +18,19 @@ status](https://www.r-pkg.org/badges/version/universals)](https://cran.r-project
 <!-- ![CRAN downloads](https://cranlogs.r-pkg.org/badges/universals) -->
 <!-- badges: end -->
 
-`universals` provides common S3 generic methods for Bayesian Analyses to
-reduce package dependencies and conflicts.
+`universals` provides S3 generic methods and some default
+implementations for Bayesian analyses that generate Markov Chain Monte
+Carlo (MCMC) samples.
+
+The purpose of ‘universals’ is to reduce package dependencies and
+conflicts. The ‘nlist’ package implements all the methods for its
+‘nlists’ class.
 
 ## Philosophy
 
 The methods are primarily designed to be used for Bayesian analyses that
-generate Markov Chain Monte Carlo (MCMC) samples but many of them can
-also be used for Maximum Likelihood (ML) and other types of analyses.
+generate Markov Chain Monte Carlo (MCMC) samples but many can also be
+used for Maximum Likelihood (ML) and other types of analyses.
 
 The names of the functions are based on the following
 definitions/concepts:
@@ -33,7 +38,8 @@ definitions/concepts:
   - A `term` is a single real or integer `value`.
   - A `par` (short for parameter) is a scalar, vector, matrix or array
     of terms, ie a numeric atomic object.
-  - An MCMC sample refers to a set of terms.
+  - An MCMC object is a collection of MCMC samples that refer to a set
+    of terms.
   - The samples are arranged in one or more `chains` of the same length
     (number of `iterations`).
   - The number of `simulations` is the product of the number of
@@ -67,11 +73,6 @@ following `roxygen2` code:
 #' @export
 universals::pars
 ```
-
-## Inspiration
-
-The `universals` package was inspired by the
-[`generics`](https://github.com/r-lib/generics) package.
 
 ## Contribution
 

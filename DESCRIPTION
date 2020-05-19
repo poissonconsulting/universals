@@ -1,5 +1,5 @@
 Package: universals
-Title: Common S3 Generics for Bayesian Analyses
+Title: S3 Generics for Bayesian Analyses
 Version: 0.0.1
 Authors@R: 
     c(person(given = "Joe",
@@ -9,9 +9,10 @@ Authors@R:
              comment = c(ORCID = "0000-0002-7683-4592")),
       person(given = "Poisson Consulting",
              role = c("cph", "fnd")))
-Description: Provides common S3 generic methods for Bayesian
-    Analyses to reduce package dependencies and conflicts. 
-    The 'nlist' package implements many methods for its 'nlists' class.
+Description: Provides S3 generic methods and some default implementations
+    for Bayesian analyses that generate Markov Chain Monte Carlo (MCMC) samples.
+    The purpose of 'universals' is to reduce package dependencies and conflicts. 
+    The 'nlist' package implements all the methods for its 'nlists' class.
 License: MIT + file LICENSE
 URL: https://github.com/poissonconsulting/universals
 BugReports: 
