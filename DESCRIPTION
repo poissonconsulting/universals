@@ -7,7 +7,8 @@ Authors@R: c(
     )
 Description: Provides common S3 generic methods for Bayesian Analyses
     that are missing from base R and the generics package 
-    to reduce package dependencies and conflicts.
+    to reduce package dependencies and conflicts. The 'nlist' package implements
+    many methods for its 'nlist' class.
 License: MIT + file LICENSE
 Depends: R (>= 3.3)
 URL: https://github.com/poissonconsulting/universals

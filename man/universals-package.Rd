@@ -8,7 +8,8 @@
 \description{
 Provides common S3 generic methods for Bayesian Analyses
     that are missing from base R and the generics package 
-    to reduce package dependencies and conflicts.
+    to reduce package dependencies and conflicts. The 'nlist' package implements
+    many methods for its 'nlist' class.
 }
 \seealso{
 Useful links:
