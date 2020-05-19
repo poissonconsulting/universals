@@ -6,10 +6,9 @@
 \alias{universals-package}
 \title{universals: Common S3 Generics for Bayesian Analyses}
 \description{
-Provides common S3 generic methods for Bayesian Analyses
-    that are missing from base R and the generics package 
-    to reduce package dependencies and conflicts. The 'nlist' package implements
-    many methods for its 'nlist' class.
+Provides common S3 generic methods for Bayesian
+    Analyses to reduce package dependencies and conflicts. 
+    The 'nlist' package implements many methods for its 'nlists' class.
 }
 \seealso{
 Useful links:
