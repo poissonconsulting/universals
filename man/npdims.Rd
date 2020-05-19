@@ -2,9 +2,12 @@
 % Please edit documentation in R/npdims.R
 \name{npdims}
 \alias{npdims}
+\alias{npdims.default}
 \title{Number of Parameter Dimensions}
 \usage{
 npdims(x, ...)
+
+\method{npdims}{default}(x, ...)
 }
 \arguments{
 \item{x}{An object.}
@@ -16,6 +19,9 @@ A named integer vector of the number of dimensions of each parameter.
 }
 \description{
 Gets the number of the dimensions of each parameter of an object.
+
+The default methods returns the length of each element of \code{\link[=pdims]{pdims()}}
+as an integer vector.
 }
 \examples{
 npdims.foobar <- function(x, ...) {

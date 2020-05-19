@@ -2,9 +2,12 @@
 % Please edit documentation in R/nsims.R
 \name{nsims}
 \alias{nsims}
+\alias{nsims.default}
 \title{Number of Simulations}
 \usage{
 nsims(x, ...)
+
+\method{nsims}{default}(x, ...)
 }
 \arguments{
 \item{x}{An object.}
@@ -17,6 +20,8 @@ An integer scalar of the number of simulations.
 \description{
 Gets the number of simulations (iterations * chains)
 of an MCMC object.
+
+The default methods returns the product of \code{\link[=nchains]{nchains()}} and \code{\link[=niters]{niters()}}.
 }
 \examples{
 nsims.foobar <- function(x, ...) {
