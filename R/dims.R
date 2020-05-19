@@ -1,19 +1,19 @@
-#' Dimensions
-#'
-#' Gets the dimensions of an object.
-#'
-#' Unlike `base::dim()`, dims returns the length of an atomic vector.
-#'
-#' @inheritParams params
-#' @return An integer vector of the dimensions.
-#' @seealso [base::dim()]
-#' @family dimensions
+#' @export
+universals::dims
+
+#' @inherit universals::dims
 #' @export
 #' @examples
-#' dims.foobar <- function(x, ...) {
-#'   NotYetImplemented()
-#'   # replace with code to get dims for an object of class 'foobar'
-#' }
-dims <- function(x, ...) {
-  UseMethod("dims")
+#' dims(character(0))
+#' dims(1:3)
+dims.default <- function(x, ...) {
+  if (is.vector(x)) length(x) else dim(x)
+}
+
+#' @inherit universals::dims
+#' @export
+#' @examples
+#' dims(factor("a"))
+dims.factor <- function(x, ...) {
+  length(x)
 }

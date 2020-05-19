@@ -1,15 +1,12 @@
-#' Number of Parameters
-#'
-#' Gets the number of parameters of an object.
-#'
-#' @inheritParams params
-#' @return An integer scalar of the number of parameters.
-#' @seealso [pars()]
-#' @family MCMC dimensions
-#' @family parameters
 #' @export
-#' @examples
-#' npars.foobar <- function(x, ...) {
-#'   length(pars(x, ...))
-#' }
-npars <- function(x, ...) UseMethod("npars")
+universals::npars
+
+#' @inherit universals::npars
+#' @export
+npars.default <- function(x, ...) {
+  x <- pars(x, ...)
+  if (anyNA(x)) {
+    return(NA_integer_)
+  }
+  length(x)
+}
