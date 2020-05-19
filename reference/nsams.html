@@ -48,7 +48,8 @@
 
 <meta property="og:title" content="Number of Samples — nsams" />
 <meta property="og:description" content="Gets the number of sample values (simulations * terms)
-of an MCMC object." />
+of an MCMC object.
+The default methods returns the product of nsims() and nterms()." />
 
 
 
@@ -127,9 +128,13 @@ of an MCMC object." />
     <div class="ref-description">
     <p>Gets the number of sample values (simulations * terms)
 of an MCMC object.</p>
+<p>The default methods returns the product of <code><a href='nsims.html'>nsims()</a></code> and <code><a href='nterms.html'>nterms()</a></code>.</p>
     </div>
 
-    <pre class="usage"><span class='fu'>nsams</span>(<span class='no'>x</span>, <span class='no'>...</span>)</pre>
+    <pre class="usage"><span class='fu'>nsams</span>(<span class='no'>x</span>, <span class='no'>...</span>)
+
+<span class='co'># S3 method for default</span>
+<span class='fu'>nsams</span>(<span class='no'>x</span>, <span class='no'>...</span>)</pre>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
