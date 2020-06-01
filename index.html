@@ -102,9 +102,10 @@
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
-<!-- To install the latest release from [CRAN](https://cran.r-project.org) -->
+<p>To install the latest release from <a href="https://cran.r-project.org">CRAN</a></p>
+<div class="sourceCode" id="cb1"><pre class="r"><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html">install.packages</a></span>(<span class="st">"universals"</span>)</pre></div>
 <p>To install the developmental version from <a href="https://github.com/poissonconsulting/universals">GitHub</a></p>
-<div class="sourceCode" id="cb1"><pre class="r"><span class="co"># install.packages("remotes")</span>
+<div class="sourceCode" id="cb2"><pre class="r"><span class="co"># install.packages("remotes")</span>
 <span class="kw pkg">remotes</span><span class="kw ns">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html">install_github</a></span>(<span class="st">"poissonconsulting/universals"</span>)</pre></div>
 </div>
 <div id="usage" class="section level2">
@@ -112,7 +113,7 @@
 <a href="#usage" class="anchor"></a>Usage</h2>
 <p><code>universals</code> is designed to be used by package developers.</p>
 <p>It is recommended to import and re-export the generics of interest. For example, to provide a method for the S3 <code><a href="reference/pars.html">pars()</a></code> method, use the following <code>roxygen2</code> code:</p>
-<div class="sourceCode" id="cb2"><pre class="r"><span class="co">#' @importFrom universals pars</span>
+<div class="sourceCode" id="cb3"><pre class="r"><span class="co">#' @importFrom universals pars</span>
 <span class="co">#' @export</span>
 <span class="kw pkg">universals</span><span class="kw ns">::</span><span class="no"><a href="reference/pars.html">pars</a></span></pre></div>
 </div>
@@ -171,6 +172,7 @@
 <li><a href="https://www.tidyverse.org/lifecycle/#experimental"><img src="https://img.shields.io/badge/lifecycle-experimental-orange.svg" alt="Lifecycle: experimental"></a></li>
 <li><a href="https://github.com/poissonconsulting/universals/actions"><img src="https://github.com/poissonconsulting/universals/workflows/R-CMD-check/badge.svg" alt="R build status"></a></li>
 <li><a href="https://codecov.io/gh/poissonconsulting/universals?branch=master"><img src="https://codecov.io/gh/poissonconsulting/universals/branch/master/graph/badge.svg" alt="Codecov test coverage"></a></li>
+<li><a href="https://CRAN.R-project.org/package=universals"><img src="https://tinyverse.netlify.com/badge/universals" alt="status"></a></li>
 <li><a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT"></a></li>
 <li><a href="https://cran.r-project.org/package=universals"><img src="https://www.r-pkg.org/badges/version/universals" alt="CRAN status"></a></li>
 </ul>
