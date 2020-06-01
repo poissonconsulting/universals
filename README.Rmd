@@ -19,9 +19,10 @@ knitr::opts_chunk$set(
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![R build status](https://github.com/poissonconsulting/universals/workflows/R-CMD-check/badge.svg)](https://github.com/poissonconsulting/universals/actions)
 [![Codecov test coverage](https://codecov.io/gh/poissonconsulting/universals/branch/master/graph/badge.svg)](https://codecov.io/gh/poissonconsulting/universals?branch=master)
+[![status](https://tinyverse.netlify.com/badge/universals)](https://CRAN.R-project.org/package=universals)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![CRAN status](https://www.r-pkg.org/badges/version/universals)](https://cran.r-project.org/package=universals)
-<!-- ![CRAN downloads](https://cranlogs.r-pkg.org/badges/universals) -->
+![CRAN downloads](https://cranlogs.r-pkg.org/badges/universals)
 <!-- badges: end -->
 
 `universals` provides S3 generic methods and some default implementations
@@ -45,8 +46,8 @@ The names of the functions are based on the following definitions/concepts:
 
 ## Installation
 
-<!-- To install the latest release from [CRAN](https://cran.r-project.org) -->
-```{r, eval=FALSE, echo=FALSE}
+To install the latest release from [CRAN](https://cran.r-project.org)
+```{r, eval=FALSE}
 install.packages("universals")
 ```
 

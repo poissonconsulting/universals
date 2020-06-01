@@ -11,11 +11,12 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 status](https://github.com/poissonconsulting/universals/workflows/R-CMD-check/badge.svg)](https://github.com/poissonconsulting/universals/actions)
 [![Codecov test
 coverage](https://codecov.io/gh/poissonconsulting/universals/branch/master/graph/badge.svg)](https://codecov.io/gh/poissonconsulting/universals?branch=master)
+[![status](https://tinyverse.netlify.com/badge/universals)](https://CRAN.R-project.org/package=universals)
 [![License:
 MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/universals)](https://cran.r-project.org/package=universals)
-<!-- ![CRAN downloads](https://cranlogs.r-pkg.org/badges/universals) -->
+![CRAN downloads](https://cranlogs.r-pkg.org/badges/universals)
 <!-- badges: end -->
 
 `universals` provides S3 generic methods and some default
@@ -45,12 +46,15 @@ definitions/concepts:
   - The number of `simulations` is the product of the number of
     iterations and the number of chains.
   - The number of `samples` is the product of the number of simulations
-    and the number of
-`terms`.
+    and the number of `terms`.
 
 ## Installation
 
-<!-- To install the latest release from [CRAN](https://cran.r-project.org) -->
+To install the latest release from [CRAN](https://cran.r-project.org)
+
+``` r
+install.packages("universals")
+```
 
 To install the developmental version from
 [GitHub](https://github.com/poissonconsulting/universals)
