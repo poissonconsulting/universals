@@ -12,7 +12,7 @@ esr_pars(x, ...)
 \item{...}{Other arguments passed to methods.}
 }
 \value{
-A uniquely named numeric atomic vector of values between 0 and 1
+A uniquely named numeric vector of values between 0 and 1
 indicating the esr value for each parameter.
 }
 \description{

@@ -12,7 +12,7 @@ esr_terms(x, ...)
 \item{...}{Other arguments passed to methods.}
 }
 \value{
-A list of uniquely named numeric atomic objects with values between
+A list of uniquely named numeric objects with values between
 0 and 1 indicating the effectively sampling rate for each term.
 }
 \description{

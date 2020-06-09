@@ -3,7 +3,7 @@
 #' Calculates the estimates for an MCMC object.
 #'
 #' @inheritParams params
-#' @return An list of uniquely named numeric atomic objects.
+#' @return A list of uniquely named numeric objects.
 #' @family MCMC manipulations
 #' @export
 #' @examples

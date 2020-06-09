@@ -7,7 +7,7 @@
 #' split R-hat value.
 #'
 #' @inheritParams params
-#' @return An uniquely named numeric atomic vector values >= 1 indicating
+#' @return An uniquely named numeric atomic with values >= 1 indicating
 #' the rhat value for each parameter.
 #' @references
 #' Gelman, A., and Rubin, D.B. 1992.

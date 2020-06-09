@@ -11,7 +11,7 @@
 #' Brooks, S., Gelman, A., Jones, G.L., and Meng, X.-L. (Editors). 2011.
 #' Handbook for Markov Chain Monte Carlo. Taylor & Francis, Boca Raton.
 #' @inheritParams params
-#' @return A uniquely named numeric atomic vector of values between 0 and 1
+#' @return A uniquely named numeric vector of values between 0 and 1
 #' indicating the esr value for each parameter.
 #' @family convergence
 #' @export

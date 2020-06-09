@@ -12,7 +12,7 @@ converged_pars(x, ...)
 \item{...}{Other arguments passed to methods.}
 }
 \value{
-A uniquely named logical atomic vector indicating whether
+A uniquely named logical vector indicating whether
 each parameter has converged.
 }
 \description{

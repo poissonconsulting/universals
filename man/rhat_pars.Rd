@@ -12,7 +12,7 @@ rhat_pars(x, ...)
 \item{...}{Other arguments passed to methods.}
 }
 \value{
-An uniquely named numeric atomic vector values >= 1 indicating
+An uniquely named numeric atomic with values >= 1 indicating
 the rhat value for each parameter.
 }
 \description{

@@ -12,7 +12,7 @@ converged_terms(x, ...)
 \item{...}{Other arguments passed to methods.}
 }
 \value{
-A list of uniquely named logical atomic objects with whether
+A list of uniquely named logical objects with whether
 each term has converged.
 }
 \description{

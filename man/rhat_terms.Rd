@@ -12,7 +12,7 @@ rhat_terms(x, ...)
 \item{...}{Other arguments passed to methods.}
 }
 \value{
-A list of uniquely named numeric atomic objects with values >= 1
+A list of uniquely named numeric objects with values >= 1
 indicating the rhat value for each term.
 }
 \description{

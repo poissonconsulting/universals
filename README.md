@@ -37,8 +37,7 @@ The names of the functions are based on the following
 definitions/concepts:
 
   - A `term` is a single real or integer `value`.
-  - A `par` (short for parameter) is a scalar, vector, matrix or array
-    of terms, ie a numeric atomic object.
+  - A `par` (short for parameter) is a numeric object of terms.
   - An MCMC object is a collection of MCMC samples that refer to a set
     of terms.
   - The samples are arranged in one or more `chains` of the same length

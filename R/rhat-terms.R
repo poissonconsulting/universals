@@ -6,7 +6,7 @@
 #' split R-hat value.
 #'
 #' @inheritParams params
-#' @return A list of uniquely named numeric atomic objects with values >= 1
+#' @return A list of uniquely named numeric objects with values >= 1
 #' indicating the rhat value for each term.
 #' @references
 #' Gelman, A., and Rubin, D.B. 1992.
