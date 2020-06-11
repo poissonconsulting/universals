@@ -29,7 +29,7 @@ Unlike \code{base::dim()}, dims returns the length of an atomic vector.
 \examples{
 dims(character(0))
 dims(1:3)
-dims(iris)
+dims(ToothGrowth)
 dims(Titanic)
 dims(factor("a"))
 }

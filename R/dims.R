@@ -18,7 +18,7 @@ dims <- function(x, ...) {
 #' @examples
 #' dims(character(0))
 #' dims(1:3)
-#' dims(iris)
+#' dims(ToothGrowth)
 #' dims(Titanic)
 dims.default <- function(x, ...) {
   if (is.vector(x)) length(x) else dim(x)
