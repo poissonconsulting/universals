@@ -21,6 +21,7 @@ Depends:
     R (>= 3.3)
 Suggests: 
     covr,
+    nlist,
     testthat
 Encoding: UTF-8
 Language: en-US
