@@ -8,8 +8,8 @@
 \description{
 Provides S3 generic methods and some default implementations
     for Bayesian analyses that generate Markov Chain Monte Carlo (MCMC) samples.
-    The purpose of 'universals' is to reduce package dependencies and conflicts. 
-    The 'nlist' package implements all the methods for its 'nlists' class.
+    The purpose of 'universals' is to reduce package dependencies and conflicts.
+    The 'nlist' package implements many of the methods for its 'nlist' class.
 }
 \seealso{
 Useful links:
@@ -24,6 +24,7 @@ Useful links:
 
 Other contributors:
 \itemize{
+  \item Kirill Müller (\href{https://orcid.org/0000-0002-1416-3412}{ORCID}) [contributor]
   \item Poisson Consulting [copyright holder, funder]
 }
 

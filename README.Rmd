@@ -29,7 +29,6 @@ knitr::opts_chunk$set(
 for Bayesian analyses that generate Markov Chain Monte Carlo (MCMC) samples.
 
 The purpose of 'universals' is to reduce package dependencies and conflicts. 
-The 'nlist' package implements all the methods for its 'nlists' class.
 
 ## Philosophy
 
@@ -43,6 +42,8 @@ The names of the functions are based on the following definitions/concepts:
 - The samples are arranged in one or more `chains` of the same length (number of `iterations`).
 - The number of `simulations` is the product of the number of iterations and the number of chains.
 - The number of `samples` is the product of the number of simulations and the number of `terms`.
+
+The 'nlist' package implements many of the methods for its 'nlists' class.
 
 ## Installation
 

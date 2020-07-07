@@ -24,8 +24,7 @@ implementations for Bayesian analyses that generate Markov Chain Monte
 Carlo (MCMC) samples.
 
 The purpose of ‘universals’ is to reduce package dependencies and
-conflicts. The ‘nlist’ package implements all the methods for its
-‘nlists’ class.
+conflicts.
 
 ## Philosophy
 
@@ -46,6 +45,9 @@ definitions/concepts:
     iterations and the number of chains.
   - The number of `samples` is the product of the number of simulations
     and the number of `terms`.
+
+The ‘nlist’ package implements many of the methods for its ‘nlists’
+class.
 
 ## Installation
 
