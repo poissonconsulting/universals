@@ -10,8 +10,8 @@
 #' @examplesIf requireNamespace("nlist", quietly = TRUE)
 #' library(nlist)
 #'
-#' nsims(nlist::nlists())
-#' nsims(nlist::nlists(nlist::nlist()))
+#' nsims(nlists())
+#' nsims(nlists(nlist()))
 nsims <- function(x, ...) {
   UseMethod("nsims")
 }
