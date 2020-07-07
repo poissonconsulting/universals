@@ -24,9 +24,10 @@ of an MCMC object.
 The default methods returns the product of \code{\link[=nchains]{nchains()}} and \code{\link[=niters]{niters()}}.
 }
 \examples{
-nsims.foobar <- function(x, ...) {
-  niters(x, ...) * nchains(x, ...)
-}
+\dontshow{if (requireNamespace("nlist", quietly = TRUE)) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+nsims(nlist::nlists())
+nsims(nlist::nlists(nlist::nlist()))
+\dontshow{\}) # examplesIf}
 }
 \seealso{
 Other MCMC dimensions: 

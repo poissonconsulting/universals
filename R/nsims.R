@@ -7,10 +7,9 @@
 #' @return An integer scalar of the number of simulations.
 #' @family MCMC dimensions
 #' @export
-#' @examples
-#' nsims.foobar <- function(x, ...) {
-#'   niters(x, ...) * nchains(x, ...)
-#' }
+#' @examplesIf requireNamespace("nlist", quietly = TRUE)
+#' nsims(nlist::nlists())
+#' nsims(nlist::nlists(nlist::nlist()))
 nsims <- function(x, ...) {
   UseMethod("nsims")
 }

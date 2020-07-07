@@ -2,6 +2,7 @@ on:
   push:
     branches:
       - master
+      - examplesif
   pull_request:
     branches:
       - master

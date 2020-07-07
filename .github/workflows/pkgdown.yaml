@@ -1,6 +1,8 @@
 on:
   push:
-    branches: master
+    branches:
+      - master
+      - examplesif
 
 name: pkgdown
 
@@ -34,7 +36,7 @@ jobs:
         run: |
           install.packages("remotes")
           remotes::install_deps(dependencies = TRUE)
-          remotes::install_dev("pkgdown")
+          remotes::install_dev("r-lib/pkgdown#1236")
         shell: Rscript {0}
 
       - name: Install package
