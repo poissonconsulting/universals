@@ -1,17 +1,7 @@
 # universals 0.0.3
 
-- Same as previous version.
-
-
-# universals 0.0.2.9001
-
-- Minimum version R 3.4
-
-
-# universals 0.0.2.9000
-
-- Same as previous version.
-
+- Minimum version `R >= 3.4`
+- Added tests and examples from `nlist` package.
 
 # universals 0.0.2
 
