@@ -10,6 +10,13 @@
 #' @family parameters
 #' @return The modified object.
 #' @export
+#' @examplesIf requireNamespace("nlist", quietly = TRUE)
+#' library(nlist)
+#'
+#' nlist <-  nlist(x = 1, y = 3:4)
+#' pars(nlist) <- c("a", "b")
+#' nlist
+#' set_pars(nlist, c("z", "c1"))
 set_pars <- function(x, value, ...) {
   UseMethod("set_pars")
 }
