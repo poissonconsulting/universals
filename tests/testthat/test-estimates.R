@@ -1,5 +1,5 @@
 test_that("estimates.nlist::nlist", {
-  expect_identical(estimates(nlist::nlist()), structure(list(), .Names = character(0), class = "nlist"))
+  expect_identical(estimates(nlist::nlist()), nlist::nlist())
   expect_identical(estimates(nlist::nlist(x = 1)), nlist::nlist(x = 1))
   expect_identical(estimates(nlist::nlist(x = 1:2)), nlist::nlist(x = 1:2))
   expect_identical(estimates(nlist::nlist(z = 1:2), fun = median), nlist::nlist(z = 1:2))
@@ -18,11 +18,11 @@ test_that("estimates.nlist::nlist", {
 test_that("estimates.nlist::nlists", {
   expect_identical(
     estimates(nlist::nlists()),
-    structure(list(), .Names = character(0), class = "nlist")
+    nlist::nlist()
   )
   expect_identical(
     estimates(nlist::nlists(nlist::nlist())),
-    structure(list(), .Names = character(0), class = "nlist")
+    nlist::nlist()
   )
   expect_identical(estimates(nlist::nlists(nlist::nlist(x = 1), nlist::nlist(x = 2))), nlist::nlist(x = 1.5))
   expect_identical(
@@ -30,10 +30,10 @@ test_that("estimates.nlist::nlists", {
       nlist::nlist(x = matrix(1:9, 3)),
       nlist::nlist(x = matrix(2:10, 3))
     )),
-    structure(list(x = structure(c(
-      1.5, 2.5, 3.5, 4.5, 5.5, 6.5,
+    nlist::nlist(x = matrix(
+      c(1.5, 2.5, 3.5, 4.5, 5.5, 6.5,
       7.5, 8.5, 9.5
-    ), .Dim = c(3L, 3L))), class = "nlist")
+    ), 3))
   )
   expect_identical(estimates(nlist::nlists(nlist::nlist(x = 1), nlist::nlist(x = 2)), fun = function(x) x[1]), nlist::nlist(x = 1))
 

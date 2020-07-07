@@ -1,11 +1,11 @@
 test_that("nlist", {
   expect_identical(
     set_pars(nlist::nlist(x = 1), "y"),
-    structure(list(y = 1), class = "nlist")
+    nlist::nlist(y = 1)
   )
   expect_identical(
     set_pars(nlist::nlist(x = 1, y = 2), c("z", "c1")),
-    structure(list(z = 1, c1 = 2), class = "nlist")
+    nlist::nlist(z = 1, c1 = 2)
   )
 
   x <- nlist::nlist()
@@ -31,14 +31,12 @@ test_that("nlists", {
   x <- nlist::nlists(nlist::nlist(x = 2))
   expect_identical(
     set_pars(x, "y"),
-    structure(list(structure(list(y = 2), class = "nlist")), class = "nlists")
+    nlist::nlists(nlist::nlist(y = 2))
   )
   x <- nlist::nlists(nlist::nlist(x = 2), nlist::nlist(x = 3))
   expect_identical(
     set_pars(x, "y"),
-    structure(list(structure(list(y = 2), class = "nlist"), structure(list(
-      y = 3
-    ), class = "nlist")), class = "nlists")
+    nlist::nlists(nlist::nlist(y = 2), nlist::nlist(y = 3))
   )
   expect_error(set_pars(x, "."),
                "^`value` must match regular expression",
