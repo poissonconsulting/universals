@@ -15,12 +15,6 @@
 #' indicating the esr value for each parameter.
 #' @family convergence
 #' @export
-#' @examples
-#' esr_pars.foobar <- function(x, ...) {
-#'   NotYetImplemented()
-#'   # replace with code to get esr for each parameter of an object of
-#'   # class 'foobar'
-#' }
 esr_pars <- function(x, ...) {
   UseMethod("esr_pars")
 }

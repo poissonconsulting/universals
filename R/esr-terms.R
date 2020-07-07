@@ -15,11 +15,6 @@
 #' 0 and 1 indicating the effectively sampling rate for each term.
 #' @family convergence
 #' @export
-#' @examples
-#' esr_terms.foobar <- function(x, ...) {
-#'   NotYetImplemented()
-#'   # replace with code to get esr for each term of an object of class 'foobar'
-#' }
 esr_terms <- function(x, ...) {
   UseMethod("esr_terms")
 }

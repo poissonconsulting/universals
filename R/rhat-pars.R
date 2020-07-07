@@ -15,12 +15,6 @@
 #' Statistical Science 7(4): 457–472.
 #' @family convergence
 #' @export
-#' @examples
-#' rhat_pars.foobar <- function(x, ...) {
-#'   NotYetImplemented()
-#'   # replace with code to get rhat for each parameter of an object of
-#'   # class 'foobar'
-#' }
 rhat_pars <- function(x, ...) {
   UseMethod("rhat_pars")
 }

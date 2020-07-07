@@ -10,11 +10,6 @@
 #' @family parameters
 #' @return The modified object.
 #' @export
-#' @examples
-#' set_pars.foobar <- function(x, ...) {
-#'   NotYetImplemented()
-#'   # replace with code to set_pars for an object of class 'foobar'
-#' }
 set_pars <- function(x, value, ...) {
   UseMethod("set_pars")
 }

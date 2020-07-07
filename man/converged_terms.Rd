@@ -18,13 +18,6 @@ each term has converged.
 \description{
 Tests whether each term of an object has converged.
 }
-\examples{
-converged_terms.foobar <- function(x, ...) {
-  NotYetImplemented()
-  # replace with code to get converged for a each term of an object of
-  # class 'foobar'
-}
-}
 \seealso{
 Other convergence: 
 \code{\link{converged_pars}()},

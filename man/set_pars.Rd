@@ -28,12 +28,6 @@ The assignment version \verb{pars<-()} forwards to \code{set_pars()}.
 \code{value} must be a unique character vector of the same length as the
 object's parameters.
 }
-\examples{
-set_pars.foobar <- function(x, ...) {
-  NotYetImplemented()
-  # replace with code to set_pars for an object of class 'foobar'
-}
-}
 \seealso{
 Other parameters: 
 \code{\link{npars}()},

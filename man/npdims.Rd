@@ -23,11 +23,6 @@ Gets the number of the dimensions of each parameter of an object.
 The default methods returns the length of each element of \code{\link[=pdims]{pdims()}}
 as an integer vector.
 }
-\examples{
-npdims.foobar <- function(x, ...) {
-  vapply(pdims(x, ...), length, 1L)
-}
-}
 \seealso{
 Other dimensions: 
 \code{\link{dims}()},

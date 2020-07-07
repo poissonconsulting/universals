@@ -23,13 +23,6 @@ each parameter.
 By default the uncorrected, unfolded, univariate,
 split R-hat value.
 }
-\examples{
-rhat_pars.foobar <- function(x, ...) {
-  NotYetImplemented()
-  # replace with code to get rhat for each parameter of an object of
-  # class 'foobar'
-}
-}
 \references{
 Gelman, A., and Rubin, D.B. 1992.
 Inference from Iterative Simulation Using Multiple Sequences.

@@ -23,11 +23,6 @@ Gets the number of parameters of an object.
 The default methods returns the length of \code{\link[=pars]{pars()}} if none are
 \code{NA}, otherwise it returns \code{NA}.
 }
-\examples{
-npars.foobar <- function(x, ...) {
-  length(pars(x, ...))
-}
-}
 \seealso{
 \code{\link[=pars]{pars()}}
 
