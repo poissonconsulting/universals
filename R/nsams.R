@@ -7,10 +7,15 @@
 #' @return An integer scalar of the number of samples.
 #' @family MCMC dimensions
 #' @export
-#' @examples
-#' nsams.foobar <- function(x, ...) {
-#'   nsims(x, ...) * nterms(x, ...)
-#' }
+#' @examplesIf requireNamespace("nlist", quietly = TRUE)
+#' library(nlist)
+#'
+#' nsams(nlist())
+#' nsams(nlist(x = 1))
+#' nsams(nlist(x = 2:3))
+#' nlist <- nlist(x = 2:3, y = matrix(1:9))
+#' nsams(nlist)
+#' nsams(nlists(nlist, nlist))
 nsams <- function(x, ...) UseMethod("nsams")
 
 #' @description

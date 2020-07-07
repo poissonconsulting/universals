@@ -8,6 +8,8 @@
 #' @family MCMC dimensions
 #' @export
 #' @examplesIf requireNamespace("nlist", quietly = TRUE)
+#' library(nlist)
+#'
 #' nsims(nlist::nlists())
 #' nsims(nlist::nlists(nlist::nlist()))
 nsims <- function(x, ...) {

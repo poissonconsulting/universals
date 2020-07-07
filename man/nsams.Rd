@@ -24,9 +24,16 @@ of an MCMC object.
 The default methods returns the product of \code{\link[=nsims]{nsims()}} and \code{\link[=nterms]{nterms()}}.
 }
 \examples{
-nsams.foobar <- function(x, ...) {
-  nsims(x, ...) * nterms(x, ...)
-}
+\dontshow{if (requireNamespace("nlist", quietly = TRUE)) (if (getRversion() >= "3.4") withAutoprint else force)(\{ # examplesIf}
+library(nlist)
+
+nsams(nlist())
+nsams(nlist(x = 1))
+nsams(nlist(x = 2:3))
+nlist <- nlist(x = 2:3, y = matrix(1:9))
+nsams(nlist)
+nsams(nlists(nlist, nlist))
+\dontshow{\}) # examplesIf}
 }
 \seealso{
 Other MCMC dimensions: 
