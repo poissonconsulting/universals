@@ -159,9 +159,10 @@ of an MCMC object.</p>
 <code><a href='nterms.html'>nterms</a>()</code></p></div>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='no'>nsams.foobar</span> <span class='kw'>&lt;-</span> <span class='kw'>function</span>(<span class='no'>x</span>, <span class='no'>...</span>) {
-  <span class='fu'><a href='nsims.html'>nsims</a></span>(<span class='no'>x</span>, <span class='no'>...</span>) * <span class='fu'><a href='nterms.html'>nterms</a></span>(<span class='no'>x</span>, <span class='no'>...</span>)
-}</div></pre>
+    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='no'>nlist</span>)
+
+<span class='fu'>nsams</span>(<span class='fu'><a href='https://rdrr.io/pkg/nlist/man/nlist.html'>nlist</a></span>())</div><div class='output co'>#&gt; [1] 0</div><div class='input'><span class='fu'>nsams</span>(<span class='fu'><a href='https://rdrr.io/pkg/nlist/man/nlist.html'>nlist</a></span>(<span class='kw'>x</span> <span class='kw'>=</span> <span class='fl'>1</span>))</div><div class='output co'>#&gt; [1] 1</div><div class='input'><span class='fu'>nsams</span>(<span class='fu'><a href='https://rdrr.io/pkg/nlist/man/nlist.html'>nlist</a></span>(<span class='kw'>x</span> <span class='kw'>=</span> <span class='fl'>2</span>:<span class='fl'>3</span>))</div><div class='output co'>#&gt; [1] 2</div><div class='input'><span class='no'>nlist</span> <span class='kw'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/pkg/nlist/man/nlist.html'>nlist</a></span>(<span class='kw'>x</span> <span class='kw'>=</span> <span class='fl'>2</span>:<span class='fl'>3</span>, <span class='kw'>y</span> <span class='kw'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/matrix.html'>matrix</a></span>(<span class='fl'>1</span>:<span class='fl'>9</span>))
+<span class='fu'>nsams</span>(<span class='no'>nlist</span>)</div><div class='output co'>#&gt; [1] 11</div><div class='input'><span class='fu'>nsams</span>(<span class='fu'><a href='https://rdrr.io/pkg/nlist/man/nlists.html'>nlists</a></span>(<span class='no'>nlist</span>, <span class='no'>nlist</span>))</div><div class='output co'>#&gt; [1] 22</div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <h2>Contents</h2>
