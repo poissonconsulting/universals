@@ -29,15 +29,16 @@ Gets the number of dimensions of an object as returned by \code{dims()}.
 The default methods returns the length of \code{\link[=dims]{dims()}}.
 }
 \details{
-For matrices and data frames, \code{ndims()} is always 2L.
+For matrices \code{ndims()} is always 2L.
+
+For data frames \code{ndims()} is always 2L.
 }
 \examples{
 ndims(character(0))
 ndims(1:3)
-
 ndims(matrix(1))
-
 ndims(data.frame())
+ndims(array(1:9, dim = c(3,1,3)))
 }
 \seealso{
 Other dimensions: 
