@@ -12,3 +12,4 @@
 ^CRAN-RELEASE$
 ^scripts$
 ^\.github$
+^revdep$

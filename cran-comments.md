@@ -11,3 +11,11 @@ release 4.0.1
 ## R CMD check results
 
 0 errors | 0 warnings | 0 notes
+
+## Reverse Dependencies
+
+nlist 0.2.0                             
+term 0.2.0
+
+OK: 2                                                                                             
+BROKEN: 0
