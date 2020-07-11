@@ -16,7 +16,6 @@ ndims <- function(x, ...) {
   UseMethod("ndims")
 }
 
-
 #' @description The default methods returns the length of [dims()].
 #' @rdname ndims
 #' @export
