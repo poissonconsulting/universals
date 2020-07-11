@@ -19,6 +19,7 @@ as_list.default <- function(x, ...) {
   x <- as.list(x)
   names <- names(x)
   attributes(x) <- NULL
-  names(x) <- names
+  if(!is.null(names))
+    names(x) <- names
   x
 }
