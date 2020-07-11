@@ -17,6 +17,8 @@ as_list <- function(x, ...) {
 #' as_list(c(x = 1, y = 2))
 as_list.default <- function(x, ...) {
   x <- as.list(x)
+  names <- names(x)
   attributes(x) <- NULL
+  names(x) <- names
   x
 }
