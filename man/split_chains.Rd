@@ -31,6 +31,7 @@ nchains(split_chains(nlists))
 \seealso{
 Other MCMC manipulations: 
 \code{\link{bind_chains}()},
+\code{\link{bind_iterations}()},
 \code{\link{collapse_chains}()},
 \code{\link{estimates}()}
 }
