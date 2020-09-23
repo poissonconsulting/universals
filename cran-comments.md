@@ -1,21 +1,13 @@
 ## Test environments
 
-release 4.0.1
+release 4.0.2
 
 * OSX (local) - release
-* OSX (actions) - release and devel
-* Ubuntu (actions) - 3.3 to release
-* Windows (winbuilder) - devel
+* OSX (actions) - oldrel, release and devel
+* Ubuntu (actions) - 3.4 to release
 * Windows (actions) - release
+* Windows (winbuilder) - devel
 
 ## R CMD check results
 
 0 errors | 0 warnings | 0 notes
-
-## Reverse Dependencies
-
-nlist 0.2.0                             
-term 0.2.0
-
-OK: 2                                                                                             
-BROKEN: 0
