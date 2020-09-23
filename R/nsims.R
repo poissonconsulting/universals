@@ -7,11 +7,6 @@
 #' @return An integer scalar of the number of simulations.
 #' @family MCMC dimensions
 #' @export
-#' @examplesIf requireNamespace("nlist", quietly = TRUE)
-#' library(nlist)
-#'
-#' nsims(nlists())
-#' nsims(nlists(nlist()))
 nsims <- function(x, ...) {
   UseMethod("nsims")
 }
