@@ -1,6 +1,6 @@
 Package: universals
 Title: S3 Generics for Bayesian Analyses
-Version: 0.0.3.9000
+Version: 0.0.3.9001
 Authors@R: 
     c(person(given = "Joe",
              family = "Thorley",
