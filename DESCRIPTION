@@ -18,7 +18,7 @@ Description: Provides S3 generic methods and some default implementations
     The purpose of 'universals' is to reduce package dependencies and conflicts.
     The 'nlist' package implements many of the methods for its 'nlist' class.
 License: MIT + file LICENSE
-URL: https://github.com/poissonconsulting/universals
+URL: https://poissonconsulting.github.io/universals, https://github.com/poissonconsulting/universals
 BugReports: 
     https://github.com/poissonconsulting/universals/issues
 Depends: 
