@@ -5,6 +5,7 @@ reference:
   contents:
   - estimates
   - bind_chains
+  - bind_iterations
   - collapse_chains
   - split_chains
 - title: Convergence
