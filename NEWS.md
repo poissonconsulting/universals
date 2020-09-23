@@ -1,3 +1,10 @@
+# universals 0.0.3.9001
+
+- Moved as_list() to extras.
+- Added as_list().
+- Added bind_iterations() generic.
+
+
 # universals 0.0.3.9000
 
 - Same as previous version.
