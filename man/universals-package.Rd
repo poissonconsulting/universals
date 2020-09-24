@@ -14,6 +14,7 @@ Provides S3 generic methods and some default implementations
 \seealso{
 Useful links:
 \itemize{
+  \item \url{https://poissonconsulting.github.io/universals/}
   \item \url{https://github.com/poissonconsulting/universals}
   \item Report bugs at \url{https://github.com/poissonconsulting/universals/issues}
 }
