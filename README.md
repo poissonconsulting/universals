@@ -6,7 +6,7 @@
 <!-- badges: start -->
 
 [![Lifecycle:
-experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![R build
 status](https://github.com/poissonconsulting/universals/workflows/R-CMD-check/badge.svg)](https://github.com/poissonconsulting/universals/actions)
 [![Codecov test
@@ -35,15 +35,15 @@ used for Maximum Likelihood (ML) and other types of analyses.
 The names of the functions are based on the following
 definitions/concepts:
 
-  - A `term` is a single real or integer `value`.
-  - A `par` (short for parameter) is a numeric object of terms.
-  - An MCMC object is a collection of MCMC samples that refer to a set
+-   A `term` is a single real or integer `value`.
+-   A `par` (short for parameter) is a numeric object of terms.
+-   An MCMC object is a collection of MCMC samples that refer to a set
     of terms.
-  - The samples are arranged in one or more `chains` of the same length
+-   The samples are arranged in one or more `chains` of the same length
     (number of `iterations`).
-  - The number of `simulations` is the product of the number of
+-   The number of `simulations` is the product of the number of
     iterations and the number of chains.
-  - The number of `samples` is the product of the number of simulations
+-   The number of `samples` is the product of the number of simulations
     and the number of `terms`.
 
 The ‘nlist’ package implements many of the methods for its ‘nlists’
