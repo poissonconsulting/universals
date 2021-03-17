@@ -11,7 +11,6 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 status](https://github.com/poissonconsulting/universals/workflows/R-CMD-check/badge.svg)](https://github.com/poissonconsulting/universals/actions)
 [![Codecov test
 coverage](https://codecov.io/gh/poissonconsulting/universals/branch/master/graph/badge.svg)](https://codecov.io/gh/poissonconsulting/universals?branch=master)
-[![status](https://tinyverse.netlify.com/badge/universals)](https://CRAN.R-project.org/package=universals)
 [![License:
 MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![CRAN
@@ -78,6 +77,10 @@ following `roxygen2` code:
 #' @export
 universals::pars
 ```
+
+## Inspiration
+
+-   [r-lib/generics](https://github.com/r-lib/generics)
 
 ## Contribution
 
