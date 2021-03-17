@@ -18,6 +18,12 @@ test_that("dims.array", {
   expect_identical(dims(array(1:12, c(2, 3, 2))), c(2L, 3L, 2L))
 })
 
+test_that("dims.array named", {
+  expect_identical(dims(structure(c(0, 0, 0, 0, 0, 0, 0, 0),
+                             .Dim = c(Name1 = 2L, Name2 = 2L, Name3 = 2L))),
+                   c(2L, 2L, 2L))
+})
+
 test_that("dims.data.frame", {
   expect_identical(dims(data.frame()), c(0L, 0L))
   expect_identical(dims(data.frame(x = 2:3)), c(2L, 1L))

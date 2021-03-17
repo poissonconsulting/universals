@@ -24,7 +24,7 @@ dims <- function(x, ...) {
 #' @rdname dims
 #' @export
 dims.default <- function(x, ...) {
-  if (is.vector(x)) length(x) else dim(x)
+  if (is.vector(x)) length(x) else unname(dim(x))
 }
 
 #' @rdname dims
