@@ -1,3 +1,8 @@
+# universals 0.0.4.9001
+
+- Ensure `dims()` returns an unnamed integer vector.
+
+
 # universals 0.0.4.9000
 
 - Same as previous version.
