@@ -6,6 +6,8 @@
 \alias{universals-package}
 \title{universals: S3 Generics for Bayesian Analyses}
 \description{
+\if{html}{\figure{logo.png}{options: align='right' alt='logo' width='120'}}
+
 Provides S3 generic methods and some default implementations
     for Bayesian analyses that generate Markov Chain Monte Carlo (MCMC) samples.
     The purpose of 'universals' is to reduce package dependencies and conflicts.
