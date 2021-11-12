@@ -43,7 +43,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">universals</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.4.9001</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.0.4.9001</span>
       </span>
     </div>
 
@@ -58,7 +58,7 @@
       </ul>
 <ul class="nav navbar-nav navbar-right">
 <li>
-  <a href="https://github.com/poissonconsulting/universals/">
+  <a href="https://github.com/poissonconsulting/universals/" class="external-link">
     <span class="fab fa-github fa-lg"></span>
      
   </a>
@@ -75,17 +75,16 @@
 
       </header><div class="row">
   <div class="contents col-md-9">
-<div id="universals-" class="section level1">
-<div class="page-header"><h1 class="hasAnchor">
-<a href="#universals-" class="anchor" aria-hidden="true"></a>universals <img src="reference/figures/logo.png" align="right">
+<div class="section level1">
+<div class="page-header"><h1 id="universals-">universals <img src="reference/figures/logo.png" align="right"><a class="anchor" aria-label="anchor" href="#universals-"></a>
 </h1></div>
 <!-- badges: start -->
 
 <p><code>universals</code> provides S3 generic methods and some default implementations for Bayesian analyses that generate Markov Chain Monte Carlo (MCMC) samples.</p>
 <p>The purpose of ‘universals’ is to reduce package dependencies and conflicts.</p>
-<div id="philosophy" class="section level2">
-<h2 class="hasAnchor">
-<a href="#philosophy" class="anchor" aria-hidden="true"></a>Philosophy</h2>
+<div class="section level2">
+<h2 id="philosophy">Philosophy<a class="anchor" aria-label="anchor" href="#philosophy"></a>
+</h2>
 <p>The methods are primarily designed to be used for Bayesian analyses that generate Markov Chain Monte Carlo (MCMC) samples but many can also be used for Maximum Likelihood (ML) and other types of analyses.</p>
 <p>The names of the functions are based on the following definitions/concepts:</p>
 <ul>
@@ -98,9 +97,9 @@
 </ul>
 <p>The ‘nlist’ package implements many of the methods for its ‘nlists’ class.</p>
 </div>
-<div id="installation" class="section level2">
-<h2 class="hasAnchor">
-<a href="#installation" class="anchor" aria-hidden="true"></a>Installation</h2>
+<div class="section level2">
+<h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
+</h2>
 <p>To install the latest release from <a href="https://cran.r-project.org" class="external-link">CRAN</a></p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"universals"</span><span class="op">)</span></code></pre></div>
@@ -109,9 +108,9 @@
 <code class="sourceCode R"><span class="co"># install.packages("remotes")</span>
 <span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"poissonconsulting/universals"</span><span class="op">)</span></code></pre></div>
 </div>
-<div id="usage" class="section level2">
-<h2 class="hasAnchor">
-<a href="#usage" class="anchor" aria-hidden="true"></a>Usage</h2>
+<div class="section level2">
+<h2 id="usage">Usage<a class="anchor" aria-label="anchor" href="#usage"></a>
+</h2>
 <p><code>universals</code> is designed to be used by package developers.</p>
 <p>It is recommended to import and re-export the generics of interest. For example, to provide a method for the S3 <code><a href="reference/pars.html">pars()</a></code> method, use the following <code>roxygen2</code> code:</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
@@ -119,22 +118,22 @@
 <span class="co">#' @export</span>
 <span class="fu">universals</span><span class="fu">::</span><span class="va"><a href="reference/pars.html">pars</a></span></code></pre></div>
 </div>
-<div id="inspiration" class="section level2">
-<h2 class="hasAnchor">
-<a href="#inspiration" class="anchor" aria-hidden="true"></a>Inspiration</h2>
+<div class="section level2">
+<h2 id="inspiration">Inspiration<a class="anchor" aria-label="anchor" href="#inspiration"></a>
+</h2>
 <ul>
 <li><a href="https://github.com/r-lib/generics" class="external-link">r-lib/generics</a></li>
 </ul>
 </div>
-<div id="contribution" class="section level2">
-<h2 class="hasAnchor">
-<a href="#contribution" class="anchor" aria-hidden="true"></a>Contribution</h2>
+<div class="section level2">
+<h2 id="contribution">Contribution<a class="anchor" aria-label="anchor" href="#contribution"></a>
+</h2>
 <p>Please report any <a href="https://github.com/poissonconsulting/universals/issues" class="external-link">issues</a>.</p>
 <p><a href="https://github.com/poissonconsulting/universals/pulls" class="external-link">Pull requests</a> are always welcome.</p>
 </div>
-<div id="code-of-conduct" class="section level2">
-<h2 class="hasAnchor">
-<a href="#code-of-conduct" class="anchor" aria-hidden="true"></a>Code of Conduct</h2>
+<div class="section level2">
+<h2 id="code-of-conduct">Code of Conduct<a class="anchor" aria-label="anchor" href="#code-of-conduct"></a>
+</h2>
 <p>Please note that the universals project is released with a <a href="https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html" class="external-link">Contributor Code of Conduct</a>. By contributing to this project, you agree to abide by its terms.</p>
 </div>
 </div>
@@ -144,13 +143,9 @@
     <div class="links">
 <h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">
-<li>Download from CRAN at <br><a href="https://cloud.r-project.org/package=universals">https://​cloud.r-project.org/​package=universals</a>
-</li>
-<li>Browse source code at <br><a href="https://github.com/poissonconsulting/universals/">https://​github.com/​poissonconsulting/​universals/​</a>
-</li>
-<li>Report a bug at <br><a href="https://github.com/poissonconsulting/universals/issues">
-    https://​github.com/​poissonconsulting/​universals/​issues</a>
-</li>
+<li><a href="https://cloud.r-project.org/package=universals" class="external-link">View on CRAN</a></li>
+<li><a href="https://github.com/poissonconsulting/universals/" class="external-link">Browse source code</a></li>
+<li><a href="https://github.com/poissonconsulting/universals/issues" class="external-link">Report a bug</a></li>
 </ul>
 </div>
 
@@ -158,7 +153,7 @@
 <h2 data-toc-skip>License</h2>
 <ul class="list-unstyled">
 <li><a href="LICENSE.html">Full license</a></li>
-<li><small><a href="https://opensource.org/licenses/mit-license.php">MIT</a> + file <a href="LICENSE-text.html">LICENSE</a></small></li>
+<li><small><a href="https://opensource.org/licenses/mit-license.php" class="external-link">MIT</a> + file <a href="LICENSE-text.html">LICENSE</a></small></li>
 </ul>
 </div>
 
@@ -173,9 +168,9 @@
 <div class="developers">
 <h2 data-toc-skip>Developers</h2>
 <ul class="list-unstyled">
-<li>Joe Thorley <br><small class="roles"> Author, maintainer </small> <a href="https://orcid.org/0000-0002-7683-4592" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li>Joe Thorley <br><small class="roles"> Author, maintainer </small> <a href="https://orcid.org/0000-0002-7683-4592" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
 <li>Poisson Consulting <br><small class="roles"> Copyright holder, funder </small>  </li>
-<li><a href="authors.html">More on authors...</a></li>
+<li><a href="authors.html">More about authors...</a></li>
 </ul>
 </div>
 
@@ -201,7 +196,7 @@
 
 <div class="pkgdown">
   <p></p>
-<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 1.6.1.9001.</p>
+<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 1.9000.9000.9000.</p>
 </div>
 
       </footer>
