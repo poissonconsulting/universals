@@ -101,11 +101,11 @@
 </h2>
 <p>To install the latest release from <a href="https://cran.r-project.org" class="external-link">CRAN</a></p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"universals"</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"universals"</span><span class="op">)</span></span></code></pre></div>
 <p>To install the developmental version from <a href="https://github.com/poissonconsulting/universals" class="external-link">GitHub</a></p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="co"># install.packages("remotes")</span>
-<span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"poissonconsulting/universals"</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span><span class="co"># install.packages("remotes")</span></span>
+<span><span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"poissonconsulting/universals"</span><span class="op">)</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="usage">Usage<a class="anchor" aria-label="anchor" href="#usage"></a>
@@ -113,9 +113,9 @@
 <p><code>universals</code> is designed to be used by package developers.</p>
 <p>It is recommended to import and re-export the generics of interest. For example, to provide a method for the S3 <code><a href="reference/pars.html">pars()</a></code> method, use the following <code>roxygen2</code> code:</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="co">#' @importFrom universals pars</span>
-<span class="co">#' @export</span>
-<span class="fu">universals</span><span class="fu">::</span><span class="va"><a href="reference/pars.html">pars</a></span></code></pre></div>
+<code class="sourceCode R"><span><span class="co">#' @importFrom universals pars</span></span>
+<span><span class="co">#' @export</span></span>
+<span><span class="fu">universals</span><span class="fu">::</span><span class="va"><a href="reference/pars.html">pars</a></span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="inspiration">Inspiration<a class="anchor" aria-label="anchor" href="#inspiration"></a>
@@ -201,7 +201,7 @@
 
 <div class="pkgdown">
   <p></p>
-<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.4.9000.</p>
+<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.6.9000.</p>
 </div>
 
       </footer>
