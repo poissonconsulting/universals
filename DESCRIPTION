@@ -22,7 +22,7 @@ URL: https://poissonconsulting.github.io/universals/, https://github.com/poisson
 BugReports: 
     https://github.com/poissonconsulting/universals/issues
 Depends: 
-    R (>= 3.4)
+    R (>= 3.5)
 Suggests: 
     covr,
     nlist,

@@ -7,13 +7,14 @@
 
 [![Lifecycle:
 stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
-[![R-CMD-check](https://github.com/poissonconsulting/universals/workflows/R-CMD-check/badge.svg)](https://github.com/poissonconsulting/universals/actions)
+[![R-CMD-check](https://github.com/poissonconsulting/universals/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/poissonconsulting/universals/actions/workflows/R-CMD-check.yaml)
 [![codecov](https://codecov.io/gh/poissonconsulting/universals/branch/main/graph/badge.svg?token=iSrKzkDv8E)](https://codecov.io/gh/poissonconsulting/universals)
 [![License:
 MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/universals)](https://cran.r-project.org/package=universals)
 ![CRAN downloads](https://cranlogs.r-pkg.org/badges/universals)
+
 <!-- badges: end -->
 
 `universals` provides S3 generic methods and some default
