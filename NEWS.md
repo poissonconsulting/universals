@@ -1,3 +1,11 @@
+<!-- NEWS.md is maintained by https://cynkra.github.io/fledge, do not edit -->
+
+# universals 0.0.5
+
+- Bump version to R 3.5
+- Update from experimental to stable.
+
+
 # universals 0.0.4.9001
 
 - Ensure `dims()` returns an unnamed integer vector.
