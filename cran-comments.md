@@ -1,10 +1,10 @@
 ## Test environments
 
-release 4.0.2
+release 4.2.1
 
 * OSX (local) - release
-* OSX (actions) - oldrel, release and devel
-* Ubuntu (actions) - 3.4 to release
+* OSX (actions) - release
+* Ubuntu (actions) - 3.5 to 4.1, oldrel, release and devel
 * Windows (actions) - release
 * Windows (winbuilder) - devel
 
@@ -12,7 +12,6 @@ release 4.0.2
 
 0 errors | 0 warnings | 0 notes
 
-## revdepcheck results
 ## revdepcheck results
 
 We checked 5 reverse dependencies, comparing R CMD check results across CRAN and dev versions of this package.
