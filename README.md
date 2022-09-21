@@ -6,9 +6,8 @@
 <!-- badges: start -->
 
 [![Lifecycle:
-experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-[![R build
-status](https://github.com/poissonconsulting/universals/workflows/R-CMD-check/badge.svg)](https://github.com/poissonconsulting/universals/actions)
+stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
+[![R-CMD-check](https://github.com/poissonconsulting/universals/workflows/R-CMD-check/badge.svg)](https://github.com/poissonconsulting/universals/actions)
 [![Codecov test
 coverage](https://codecov.io/gh/poissonconsulting/universals/branch/master/graph/badge.svg)](https://codecov.io/gh/poissonconsulting/universals?branch=master)
 [![License:
