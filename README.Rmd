@@ -27,7 +27,7 @@ knitr::opts_chunk$set(
 `universals` provides S3 generic methods and some default implementations
 for Bayesian analyses that generate Markov Chain Monte Carlo (MCMC) samples.
 
-The purpose of 'universals' is to reduce package dependencies and conflicts. 
+The purpose of `universals` is to reduce package dependencies and conflicts. 
 
 ## Philosophy
 

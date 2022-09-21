@@ -20,7 +20,7 @@ status](https://www.r-pkg.org/badges/version/universals)](https://cran.r-project
 implementations for Bayesian analyses that generate Markov Chain Monte
 Carlo (MCMC) samples.
 
-The purpose of ‘universals’ is to reduce package dependencies and
+The purpose of `universals` is to reduce package dependencies and
 conflicts.
 
 ## Philosophy
