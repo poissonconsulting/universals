@@ -1,26 +1,22 @@
 Package: universals
 Title: S3 Generics for Bayesian Analyses
 Version: 0.0.5
-Authors@R: 
-    c(person(given = "Joe",
-             family = "Thorley",
-             role = c("aut", "cre"),
-             email = "joe@poissonconsulting.ca",
-             comment = c(ORCID = "0000-0002-7683-4592")),
-      person(given = "Kirill",
-             family = "Müller",
-             role = "ctb",
-             comment = c(ORCID = "0000-0002-1416-3412")),
-      person(given = "Poisson Consulting",
-             role = c("cph", "fnd")))
+Authors@R: c(
+    person("Joe", "Thorley", , "joe@poissonconsulting.ca", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-7683-4592")),
+    person("Kirill", "Müller", role = "ctb",
+           comment = c(ORCID = "0000-0002-1416-3412")),
+    person("Poisson Consulting", role = c("cph", "fnd"))
+  )
 Description: Provides S3 generic methods and some default implementations
-    for Bayesian analyses that generate Markov Chain Monte Carlo (MCMC) samples.
-    The purpose of 'universals' is to reduce package dependencies and conflicts.
-    The 'nlist' package implements many of the methods for its 'nlist' class.
+    for Bayesian analyses that generate Markov Chain Monte Carlo (MCMC)
+    samples.  The purpose of 'universals' is to reduce package
+    dependencies and conflicts.  The 'nlist' package implements many of
+    the methods for its 'nlist' class.
 License: MIT + file LICENSE
-URL: https://poissonconsulting.github.io/universals/, https://github.com/poissonconsulting/universals
-BugReports: 
-    https://github.com/poissonconsulting/universals/issues
+URL: https://poissonconsulting.github.io/universals/,
+    https://github.com/poissonconsulting/universals
+BugReports: https://github.com/poissonconsulting/universals/issues
 Depends: 
     R (>= 3.5)
 Suggests: 
