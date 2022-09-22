@@ -1,5 +1,11 @@
 <!-- NEWS.md is maintained by https://cynkra.github.io/fledge, do not edit -->
 
+# universals 0.0.5.9000
+
+- Bump version to R 3.5
+- Update from experimental to stable.
+
+
 # universals 0.0.5
 
 - Update package lifecycle from experimental to stable.
