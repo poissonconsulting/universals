@@ -28,12 +28,12 @@ Statistical Science 7(4): 457–472.
 }
 \seealso{
 Other convergence: 
+\code{\link{converged}()},
 \code{\link{converged_pars}()},
 \code{\link{converged_terms}()},
-\code{\link{converged}()},
+\code{\link{esr}()},
 \code{\link{esr_pars}()},
 \code{\link{esr_terms}()},
-\code{\link{esr}()},
 \code{\link{rhat_pars}()},
 \code{\link{rhat_terms}()}
 }

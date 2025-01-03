@@ -10,4 +10,3 @@ test_that("collapse_chains nlists", {
 
   expect_identical(collapse_chains(nlists2), nlists)
 })
-

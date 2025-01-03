@@ -24,5 +24,6 @@ test_that("split_chains nlist::nlists extra iters", {
 
   expect_identical(
     split_chains(nlists),
-    nlists2)
+    nlists2
+  )
 })

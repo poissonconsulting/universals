@@ -31,9 +31,11 @@ test_that("estimates.nlist::nlists", {
       nlist::nlist(x = matrix(2:10, 3))
     )),
     nlist::nlist(x = matrix(
-      c(1.5, 2.5, 3.5, 4.5, 5.5, 6.5,
-      7.5, 8.5, 9.5
-    ), 3))
+      c(
+        1.5, 2.5, 3.5, 4.5, 5.5, 6.5,
+        7.5, 8.5, 9.5
+      ), 3
+    ))
   )
   expect_identical(estimates(nlist::nlists(nlist::nlist(x = 1), nlist::nlist(x = 2)), fun = function(x) x[1]), nlist::nlist(x = 1))
 

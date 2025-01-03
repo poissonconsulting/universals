@@ -19,9 +19,12 @@ test_that("dims.array", {
 })
 
 test_that("dims.array named", {
-  expect_identical(dims(structure(c(0, 0, 0, 0, 0, 0, 0, 0),
-                             .Dim = c(Name1 = 2L, Name2 = 2L, Name3 = 2L))),
-                   c(2L, 2L, 2L))
+  expect_identical(
+    dims(structure(c(0, 0, 0, 0, 0, 0, 0, 0),
+      .Dim = c(Name1 = 2L, Name2 = 2L, Name3 = 2L)
+    )),
+    c(2L, 2L, 2L)
+  )
 })
 
 test_that("dims.data.frame", {

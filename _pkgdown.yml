@@ -1,4 +1,10 @@
-destination: docs
+url: ~
+template:
+  bootstrap: 5
+  package: poissontemplate
+
+development:
+  mode: auto
 
 reference:
 - title: Manipulation

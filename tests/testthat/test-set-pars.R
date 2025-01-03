@@ -11,13 +11,13 @@ test_that("nlist", {
   x <- nlist::nlist()
   expect_identical(set_pars(x, character(0)), x)
   expect_error(set_pars(x, "a"),
-               "^`value` must be length 0, not 1[.]$",
-               class = "chk_error"
+    "^`value` must be length 0, not 1[.]$",
+    class = "chk_error"
   )
   x <- nlist::nlist(x = 2)
   expect_error(set_pars(x, "."),
-               "^`value` must match regular expression",
-               class = "chk_error"
+    "^`value` must match regular expression",
+    class = "chk_error"
   )
 })
 
@@ -39,7 +39,7 @@ test_that("nlists", {
     nlist::nlists(nlist::nlist(y = 2), nlist::nlist(y = 3))
   )
   expect_error(set_pars(x, "."),
-               "^`value` must match regular expression",
-               class = "chk_error"
+    "^`value` must match regular expression",
+    class = "chk_error"
   )
 })

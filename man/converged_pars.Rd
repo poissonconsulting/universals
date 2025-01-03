@@ -20,13 +20,13 @@ Tests whether each parameter of an object has converged.
 }
 \seealso{
 Other convergence: 
-\code{\link{converged_terms}()},
 \code{\link{converged}()},
+\code{\link{converged_terms}()},
+\code{\link{esr}()},
 \code{\link{esr_pars}()},
 \code{\link{esr_terms}()},
-\code{\link{esr}()},
+\code{\link{rhat}()},
 \code{\link{rhat_pars}()},
-\code{\link{rhat_terms}()},
-\code{\link{rhat}()}
+\code{\link{rhat_terms}()}
 }
 \concept{convergence}

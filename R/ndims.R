@@ -11,7 +11,7 @@
 #' ndims(1:3)
 #' ndims(matrix(1))
 #' ndims(data.frame())
-#' ndims(array(1:9, dim = c(3,1,3)))
+#' ndims(array(1:9, dim = c(3, 1, 3)))
 ndims <- function(x, ...) {
   UseMethod("ndims")
 }

@@ -30,13 +30,13 @@ Handbook for Markov Chain Monte Carlo. Taylor & Francis, Boca Raton.
 }
 \seealso{
 Other convergence: 
+\code{\link{converged}()},
 \code{\link{converged_pars}()},
 \code{\link{converged_terms}()},
-\code{\link{converged}()},
-\code{\link{esr_terms}()},
 \code{\link{esr}()},
+\code{\link{esr_terms}()},
+\code{\link{rhat}()},
 \code{\link{rhat_pars}()},
-\code{\link{rhat_terms}()},
-\code{\link{rhat}()}
+\code{\link{rhat_terms}()}
 }
 \concept{convergence}

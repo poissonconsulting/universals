@@ -23,4 +23,3 @@ collapse_chains.default <- function(x, ...) {
   }, x = x)
   Reduce(bind_iterations, x)
 }
-
