@@ -10,7 +10,7 @@ stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://
 [![R-CMD-check](https://github.com/poissonconsulting/universals/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/poissonconsulting/universals/actions/workflows/R-CMD-check.yaml)
 [![codecov](https://codecov.io/gh/poissonconsulting/universals/branch/main/graph/badge.svg?token=iSrKzkDv8E)](https://app.codecov.io/gh/poissonconsulting/universals)
 [![License:
-MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/license/mit/)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/universals)](https://cran.r-project.org/package=universals)
 ![CRAN downloads](https://cranlogs.r-pkg.org/badges/universals)
@@ -33,35 +33,19 @@ used for Maximum Likelihood (ML) and other types of analyses.
 The names of the functions are based on the following
 definitions/concepts:
 
--   A `term` is a single real or integer `value`.
--   A `par` (short for parameter) is a numeric object of terms.
--   An MCMC object is a collection of MCMC samples that refer to a set
-    of terms.
--   The samples are arranged in one or more `chains` of the same length
-    (number of `iterations`).
--   The number of `simulations` is the product of the number of
-    iterations and the number of chains.
--   The number of `samples` is the product of the number of simulations
-    and the number of `terms`.
+- A `term` is a single real or integer `value`.
+- A `par` (short for parameter) is a numeric object of terms.
+- An MCMC object is a collection of MCMC samples that refer to a set of
+  terms.
+- The samples are arranged in one or more `chains` of the same length
+  (number of `iterations`).
+- The number of `simulations` is the product of the number of iterations
+  and the number of chains.
+- The number of `samples` is the product of the number of simulations
+  and the number of `terms`.
 
 The ‘nlist’ package implements many of the methods for its ‘nlists’
 class.
-
-## Installation
-
-To install the latest release from [CRAN](https://cran.r-project.org)
-
-``` r
-install.packages("universals")
-```
-
-To install the developmental version from
-[GitHub](https://github.com/poissonconsulting/universals)
-
-``` r
-# install.packages("remotes")
-remotes::install_github("poissonconsulting/universals")
-```
 
 ## Usage
 
@@ -77,9 +61,39 @@ following `roxygen2` code:
 universals::pars
 ```
 
+## Installation
+
+### Release
+
+To install the release version from
+[CRAN](https://CRAN.R-project.org/package=universals).
+
+``` r
+install.packages("universals")
+```
+
+The website for the release version is at
+<https://poissonconsulting.github.io/universals/>.
+
+### Development
+
+To install the development version from
+[r-universe](https://poissonconsulting.r-universe.dev/universals).
+
+``` r
+install.packages("universals", repos = c("https://poissonconsulting.r-universe.dev", "https://cloud.r-project.org"))
+```
+
+or from [GitHub](https://github.com/poissonconsulting/universals)
+
+``` r
+# install.packages("remotes")
+remotes::install_github("poissonconsulting/universals")
+```
+
 ## Inspiration
 
--   [r-lib/generics](https://github.com/r-lib/generics)
+- [r-lib/generics](https://github.com/r-lib/generics)
 
 ## Contribution
 

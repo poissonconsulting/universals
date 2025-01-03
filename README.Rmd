@@ -45,19 +45,6 @@ The names of the functions are based on the following definitions/concepts:
 
 The 'nlist' package implements many of the methods for its 'nlists' class.
 
-## Installation
-
-To install the latest release from [CRAN](https://cran.r-project.org)
-```{r, eval=FALSE}
-install.packages("universals")
-```
-
-To install the developmental version from [GitHub](https://github.com/poissonconsulting/universals)
-```{r, eval=FALSE}
-# install.packages("remotes")
-remotes::install_github("poissonconsulting/universals")
-```
-
 ## Usage
 
 `universals` is designed to be used by package developers.
@@ -69,6 +56,31 @@ It is recommended to import and re-export the generics of interest. For example,
 #' @export
 universals::pars
 ```
+
+## Installation
+
+### Release
+
+To install the release version from [CRAN](https://CRAN.R-project.org/package=universals).
+```r
+install.packages("universals")
+```
+
+The website for the release version is at <https://poissonconsulting.github.io/universals/>.
+
+### Development
+
+To install the development version from [r-universe](https://poissonconsulting.r-universe.dev/universals).
+```r
+install.packages("universals", repos = c("https://poissonconsulting.r-universe.dev", "https://cloud.r-project.org"))
+```
+
+or from [GitHub](https://github.com/poissonconsulting/universals)
+```r
+# install.packages("remotes")
+remotes::install_github("poissonconsulting/universals")
+```
+
 
 ## Inspiration
 
