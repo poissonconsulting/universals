@@ -1,5 +1,12 @@
 <!-- NEWS.md is maintained by https://cynkra.github.io/fledge, do not edit -->
 
+# universals 0.0.5.9001
+
+* Add fledge-bump workflow
+* Add fledge-tag-on-merge workflow
+- Depends R >= 3.6
+
+
 # universals 0.0.5.9000
 
 - Bump version to R 3.5
