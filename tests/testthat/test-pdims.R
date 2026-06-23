@@ -1,4 +1,5 @@
 test_that("dims.nlist", {
+  skip_if_not_installed("nlist")
   expect_identical(pdims(nlist::nlist()), list())
   expect_identical(
     pdims(nlist::nlist(x = 1:3, y = matrix(1, c(2, 3)))),
@@ -7,6 +8,7 @@ test_that("dims.nlist", {
 })
 
 test_that("pdims.nlists", {
+  skip_if_not_installed("nlist")
   expect_identical(pdims(nlist::nlists()), list())
   expect_identical(pdims(nlist::nlists(nlist::nlist())), list())
   expect_identical(

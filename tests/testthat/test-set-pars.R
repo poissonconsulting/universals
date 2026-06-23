@@ -1,4 +1,5 @@
 test_that("nlist", {
+  skip_if_not_installed("nlist")
   expect_identical(
     set_pars(nlist::nlist(x = 1), "y"),
     nlist::nlist(y = 1)
@@ -22,6 +23,7 @@ test_that("nlist", {
 })
 
 test_that("nlists", {
+  skip_if_not_installed("nlist")
   x <- nlist::nlists()
   expect_identical(set_pars(x, character(0)), x)
   expect_error(set_pars(x, "a"), "^`value` must be length 0, not 1[.]$", class = "chk_error")

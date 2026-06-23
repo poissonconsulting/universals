@@ -1,4 +1,5 @@
 test_that("estimates.nlist::nlist", {
+  skip_if_not_installed("nlist")
   expect_identical(estimates(nlist::nlist()), nlist::nlist())
   expect_identical(estimates(nlist::nlist(x = 1)), nlist::nlist(x = 1))
   expect_identical(estimates(nlist::nlist(x = 1:2)), nlist::nlist(x = 1:2))
@@ -16,6 +17,7 @@ test_that("estimates.nlist::nlist", {
 })
 
 test_that("estimates.nlist::nlists", {
+  skip_if_not_installed("nlist")
   expect_identical(
     estimates(nlist::nlists()),
     nlist::nlist()
