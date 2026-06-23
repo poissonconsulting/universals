@@ -1,0 +1,164 @@
+# universals
+
+`universals` provides S3 generic methods and some default
+implementations for Bayesian analyses that generate Markov Chain Monte
+Carlo (MCMC) samples.
+
+The purpose of `universals` is to reduce package dependencies and
+conflicts.
+
+## Philosophy
+
+The methods are primarily designed to be used for Bayesian analyses that
+generate Markov Chain Monte Carlo (MCMC) samples but many can also be
+used for Maximum Likelihood (ML) and other types of analyses.
+
+The names of the functions are based on the following
+definitions/concepts:
+
+- A `term` is a single real or integer `value`.
+- A `par` (short for parameter) is a numeric object of terms.
+- An MCMC object is a collection of MCMC samples that refer to a set of
+  terms.
+- The samples are arranged in one or more `chains` of the same length
+  (number of `iterations`).
+- The number of `simulations` is the product of the number of iterations
+  and the number of chains.
+- The number of `samples` is the product of the number of simulations
+  and the number of `terms`.
+
+The ‘nlist’ package implements many of the methods for its ‘nlists’
+class.
+
+## Usage
+
+`universals` is designed to be used by package developers.
+
+It is recommended to import and re-export the generics of interest. For
+example, to provide a method for the S3
+[`pars()`](https://poissonconsulting.github.io/universals/dev/reference/pars.md)
+method, use the following `roxygen2` code:
+
+``` r
+
+#' @importFrom universals pars
+#' @export
+universals::pars
+```
+
+## Installation
+
+### Release
+
+To install the release version from
+[CRAN](https://CRAN.R-project.org/package=universals).
+
+``` r
+
+install.packages("universals")
+```
+
+The website for the release version is at
+<https://poissonconsulting.github.io/universals/>.
+
+### Development
+
+To install the development version from
+[r-universe](https://poissonconsulting.r-universe.dev/universals).
+
+``` r
+
+install.packages("universals", repos = c("https://poissonconsulting.r-universe.dev", "https://cloud.r-project.org"))
+```
+
+or from [GitHub](https://github.com/poissonconsulting/universals)
+
+``` r
+
+# install.packages("remotes")
+remotes::install_github("poissonconsulting/universals")
+```
+
+## Inspiration
+
+- [r-lib/generics](https://github.com/r-lib/generics)
+
+## Contribution
+
+Please report any
+[issues](https://github.com/poissonconsulting/universals/issues).
+
+[Pull requests](https://github.com/poissonconsulting/universals/pulls)
+are always welcome.
+
+## Code of Conduct
+
+Please note that the universals project is released with a [Contributor
+Code of
+Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.
+
+# Package index
+
+## Manipulation
+
+- [`estimates()`](https://poissonconsulting.github.io/universals/dev/reference/estimates.md)
+  : Estimates
+- [`bind_chains()`](https://poissonconsulting.github.io/universals/dev/reference/bind_chains.md)
+  : Bind by Chains.
+- [`bind_iterations()`](https://poissonconsulting.github.io/universals/dev/reference/bind_iterations.md)
+  : Bind Iterations
+- [`collapse_chains()`](https://poissonconsulting.github.io/universals/dev/reference/collapse_chains.md)
+  : Collapse Chains
+- [`split_chains()`](https://poissonconsulting.github.io/universals/dev/reference/split_chains.md)
+  : Split Chains
+
+## Convergence
+
+- [`converged()`](https://poissonconsulting.github.io/universals/dev/reference/converged.md)
+  : Converged
+- [`converged_pars()`](https://poissonconsulting.github.io/universals/dev/reference/converged_pars.md)
+  : Converged Parameters
+- [`converged_terms()`](https://poissonconsulting.github.io/universals/dev/reference/converged_terms.md)
+  : Converged Terms
+- [`esr()`](https://poissonconsulting.github.io/universals/dev/reference/esr.md)
+  : Effective Sampling Rate
+- [`esr_pars()`](https://poissonconsulting.github.io/universals/dev/reference/esr_pars.md)
+  : Effective Sampling Rate for Parameters
+- [`esr_terms()`](https://poissonconsulting.github.io/universals/dev/reference/esr_terms.md)
+  : Effective Sampling Rate for Terms
+- [`rhat()`](https://poissonconsulting.github.io/universals/dev/reference/rhat.md)
+  : R-hat
+- [`rhat_pars()`](https://poissonconsulting.github.io/universals/dev/reference/rhat_pars.md)
+  : R-hat Parameters
+- [`rhat_terms()`](https://poissonconsulting.github.io/universals/dev/reference/rhat_terms.md)
+  : R-hat Terms
+
+## Dimensionality
+
+- [`nchains()`](https://poissonconsulting.github.io/universals/dev/reference/nchains.md)
+  : Number of Chains
+- [`dims()`](https://poissonconsulting.github.io/universals/dev/reference/dims.md)
+  : Dimensions
+- [`ndims()`](https://poissonconsulting.github.io/universals/dev/reference/ndims.md)
+  : Number of Dimensions
+- [`niters()`](https://poissonconsulting.github.io/universals/dev/reference/niters.md)
+  : Number of Iterations
+- [`pars()`](https://poissonconsulting.github.io/universals/dev/reference/pars.md)
+  : Parameter Names
+- [`npars()`](https://poissonconsulting.github.io/universals/dev/reference/npars.md)
+  : Number of Parameters
+- [`set_pars()`](https://poissonconsulting.github.io/universals/dev/reference/set_pars.md)
+  [`` `pars<-`() ``](https://poissonconsulting.github.io/universals/dev/reference/set_pars.md)
+  : Set Parameters
+- [`pdims()`](https://poissonconsulting.github.io/universals/dev/reference/pdims.md)
+  : Parameter Dimensions
+- [`npdims()`](https://poissonconsulting.github.io/universals/dev/reference/npdims.md)
+  : Number of Parameter Dimensions
+- [`nsams()`](https://poissonconsulting.github.io/universals/dev/reference/nsams.md)
+  : Number of Samples
+- [`nsims()`](https://poissonconsulting.github.io/universals/dev/reference/nsims.md)
+  : Number of Simulations
+- [`nterms()`](https://poissonconsulting.github.io/universals/dev/reference/nterms.md)
+  : Number of Terms
+
