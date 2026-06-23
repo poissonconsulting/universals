@@ -1,4 +1,5 @@
 test_that("nsams.nlist::nlist", {
+  skip_if_not_installed("nlist")
   expect_identical(nsams(nlist::nlist()), 0L)
   expect_identical(nsams(nlist::nlist(x = 1)), 1L)
   expect_identical(nsams(nlist::nlist(x = 2:3)), 2L)
@@ -7,6 +8,7 @@ test_that("nsams.nlist::nlist", {
 })
 
 test_that("nsams.nlist::nlists", {
+  skip_if_not_installed("nlist")
   expect_identical(nsams(nlist::nlists()), 0L)
   expect_identical(nsams(nlist::nlists(nlist::nlist())), 0L)
 

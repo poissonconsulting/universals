@@ -1,9 +1,11 @@
 test_that("collapse_chains nlist", {
+  skip_if_not_installed("nlist")
   nlist <- nlist::nlist(x = matrix(1:6, 2))
   expect_identical(collapse_chains(nlist), nlist)
 })
 
 test_that("collapse_chains nlists", {
+  skip_if_not_installed("nlist")
   nlists <- nlist::nlists(nlist::nlist(x = matrix(1:6, 2)), nlist::nlist(x = matrix(3:8, 2)))
   nlists2 <- nlists
   attr(nlists2, "nchains") <- 2L

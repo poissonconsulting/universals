@@ -1,9 +1,11 @@
 test_that("nchains nlist", {
+  skip_if_not_installed("nlist")
   expect_identical(nchains(nlist::nlist()), 1L)
   expect_identical(nchains(nlist::nlist(x = 1)), 1L)
 })
 
 test_that("nchains nlists", {
+  skip_if_not_installed("nlist")
   expect_identical(nchains(nlist::nlists()), 1L)
   expect_identical(nchains(nlist::nlists(nlist::nlist())), 1L)
   expect_identical(nchains(nlist::nlists(nlist::nlist(), nlist::nlist())), 1L)
