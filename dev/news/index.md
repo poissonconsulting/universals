@@ -1,5 +1,13 @@
 # Changelog
 
+## universals 0.0.5.9002
+
+- Standardize CI via reusable workflows (tier: cran)
+- Guard tests against missing Suggests dependency for check-no-suggests
+  CI
+- Guard npars character test against missing nlist for check-no-suggests
+  CI
+
 ## universals 0.0.5.9001
 
 - Add fledge-bump workflow

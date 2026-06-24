@@ -18,13 +18,13 @@ Source:
 [`DESCRIPTION`](https://github.com/poissonconsulting/universals/blob/main/DESCRIPTION)
 
 Thorley J (2026). *universals: S3 Generics for Bayesian Analyses*. R
-package version 0.0.5.9001,
+package version 0.0.5.9002,
 <https://poissonconsulting.github.io/universals/>.
 
     @Manual{,
       title = {universals: S3 Generics for Bayesian Analyses},
       author = {Joe Thorley},
       year = {2026},
-      note = {R package version 0.0.5.9001},
+      note = {R package version 0.0.5.9002},
       url = {https://poissonconsulting.github.io/universals/},
     }
