@@ -13,3 +13,5 @@
 ^scripts$
 ^\.github$
 ^revdep$
+^[.]?air[.]toml$
+^\.vscode$

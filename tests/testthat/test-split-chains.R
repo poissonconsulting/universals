@@ -1,6 +1,9 @@
 test_that("split_chains nlist::nlists", {
   skip_if_not_installed("nlist")
-  nlists <- nlist::nlists(nlist::nlist(x = matrix(1:6, 2)), nlist::nlist(x = matrix(3:8, 2)))
+  nlists <- nlist::nlists(
+    nlist::nlist(x = matrix(1:6, 2)),
+    nlist::nlist(x = matrix(3:8, 2))
+  )
   nlists2 <- nlists
   attr(nlists2, "nchains") <- 2L
 
@@ -10,18 +13,23 @@ test_that("split_chains nlist::nlists", {
 test_that("split_chains nlist::nlists error", {
   skip_if_not_installed("nlist")
   nlists <- nlist::nlists(nlist::nlist(x = matrix(1:6, 2)))
-  expect_error(split_chains(nlists), "^`x` must have at least two iterations[.]$")
+  expect_error(
+    split_chains(nlists),
+    "^`x` must have at least two iterations[.]$"
+  )
 })
 
 test_that("split_chains nlist::nlists extra iters", {
   skip_if_not_installed("nlist")
   nlists <- nlist::nlists(
-    nlist::nlist(x = matrix(1:6, 2)), nlist::nlist(x = matrix(3:8, 2)),
+    nlist::nlist(x = matrix(1:6, 2)),
+    nlist::nlist(x = matrix(3:8, 2)),
     nlist::nlist(x = matrix(2:7, 2))
   )
 
   nlists2 <- nlist::nlists(
-    nlist::nlist(x = matrix(1:6, 2)), nlist::nlist(x = matrix(3:8, 2))
+    nlist::nlist(x = matrix(1:6, 2)),
+    nlist::nlist(x = matrix(3:8, 2))
   )
   attr(nlists2, "nchains") <- 2L
 

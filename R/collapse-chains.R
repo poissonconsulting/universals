@@ -18,8 +18,12 @@ collapse_chains.default <- function(x, ...) {
     return(x)
   }
 
-  x <- lapply(1:nchains, FUN = function(chains, x) {
-    subset(x, chains = chains)
-  }, x = x)
+  x <- lapply(
+    1:nchains,
+    FUN = function(chains, x) {
+      subset(x, chains = chains)
+    },
+    x = x
+  )
   Reduce(bind_iterations, x)
 }
