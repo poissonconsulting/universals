@@ -1,5 +1,10 @@
 <!-- NEWS.md is maintained by https://cynkra.github.io/fledge, do not edit -->
 
+# universals 0.0.5.9004
+
+- Same as previous version.
+
+
 # universals 0.0.5.9003
 
 - Same as previous version.
