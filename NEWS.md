@@ -1,4 +1,9 @@
-<!-- NEWS.md is maintained by https://cynkra.github.io/fledge, do not edit -->
+<!-- NEWS.md is maintained by https://fledge.cynkra.com, contributors should not edit this file -->
+
+# universals 0.0.5.9005
+
+- Same as previous version.
+
 
 # universals 0.0.5.9004
 
